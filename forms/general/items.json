@@ -1,0 +1,65 @@
+{
+  "source": {
+    "title": "Primary care new patient visit (demo form)",
+    "note": "Structure mirrors a real Duke new-patient history form (checkbox grids, yes/no rows, medication and surgery tables) and an Epic-style vitals flowsheet. Wording is written for this demo; no Duke name or branding. Every question is a choice, a number, or a short table cell. Codes are internal and not shown on the page."
+  },
+  "legend_with_item_id": false,
+  "show_codes": false,
+  "fields": [
+    {"id": "CC", "item": "VISIT", "title": "Reason for visit", "question": "Chief complaint / primary reason for visit", "type": "checkbox",
+     "options": [["JOINT", "Joint or knee pain"], ["BACK", "Back pain"], ["COUGH", "Cough"], ["FEVER", "Fever"], ["SOB", "Shortness of breath"], ["DIZZY", "Dizziness"], ["HEAD", "Headache"], ["REFILL", "Medication refill"], ["DMFU", "Diabetes follow-up"], ["HTNFU", "Blood pressure follow-up"], ["OTHER", "Other"]]},
+    {"id": "ONSET", "item": "VISIT", "title": "Reason for visit", "question": "When did it start?", "type": "radio",
+     "options": [["TODAY", "Today"], ["D1_3", "1 to 3 days ago"], ["D4_7", "4 to 7 days ago"], ["W1_4", "1 to 4 weeks ago"], ["M1", "More than a month ago"]]},
+    {"id": "PAIN", "item": "VISIT", "title": "Reason for visit", "question": "Pain right now, on a scale of 0 to 10", "type": "radio",
+     "options": [["0", "0 No pain"], ["1", "1"], ["2", "2"], ["3", "3"], ["4", "4"], ["5", "5"], ["6", "6"], ["7", "7"], ["8", "8"], ["9", "9"], ["10", "10 Worst possible pain"]]},
+
+    {"id": "BP_SYS", "item": "VITALS", "title": "Vital signs", "question": "Blood pressure, systolic (mmHg)", "type": "number", "step": "1"},
+    {"id": "BP_DIA", "item": "VITALS", "title": "Vital signs", "question": "Blood pressure, diastolic (mmHg)", "type": "number", "step": "1"},
+    {"id": "HR", "item": "VITALS", "title": "Vital signs", "question": "Pulse, heart rate (beats per minute)", "type": "number", "step": "1"},
+    {"id": "TEMP", "item": "VITALS", "title": "Vital signs", "question": "Temperature (°F)", "type": "number", "step": "0.1"},
+    {"id": "SPO2", "item": "VITALS", "title": "Vital signs", "question": "Oxygen saturation, SpO2 (%)", "type": "number", "step": "1"},
+    {"id": "WT", "item": "VITALS", "title": "Vital signs", "question": "Weight (lb)", "type": "number", "step": "0.1"},
+    {"id": "HT", "item": "VITALS", "title": "Vital signs", "question": "Height (inches)", "type": "number", "step": "1"},
+
+    {"id": "ALLERGY_STATUS", "item": "ALLERGY", "title": "Allergy history", "question": "Allergy status", "type": "radio",
+     "options": [["N", "No known allergies"], ["Y", "Has allergies"]]},
+    {"id": "ALLERGENS", "item": "ALLERGY", "title": "Allergy history", "question": "Medication or substance", "type": "checkbox",
+     "options": [["PCN", "Penicillin"], ["SULFA", "Sulfa drugs"], ["NSAID", "Aspirin or NSAIDs"], ["OPIOID", "Codeine or opioids"], ["LATEX", "Latex"], ["FOOD", "Foods"], ["ENV", "Dust, pollen, mold, or animals"], ["OTHER", "Other"]]},
+    {"id": "REACTION", "item": "ALLERGY", "title": "Allergy history", "question": "Reaction type", "type": "checkbox",
+     "options": [["HIVES", "Hives"], ["RASH", "Rash"], ["ITCH", "Itching"], ["SWELL", "Swelling"], ["ANAPH", "Anaphylaxis"], ["BREATH", "Cough or shortness of breath"], ["GI", "Nausea or vomiting"], ["OTHER", "Other"]]},
+
+    {"id": "MED1", "item": "MEDS", "title": "Current medications, in the order listed", "question": "Medication 1 name (the first medication the patient names)", "type": "text"},
+    {"id": "DOSE1", "item": "MEDS", "title": "Current medications, in the order listed", "question": "Dose of medication 1, the first one named (amount and unit only, like 10 mg)", "type": "text"},
+    {"id": "FREQ1", "item": "MEDS", "title": "Current medications, in the order listed", "question": "How often medication 1, the first one named, is taken", "type": "select",
+     "options_ref": "FREQ"},
+
+    {"id": "PMH", "item": "PMH", "title": "Past medical history", "question": "Current or past health problems", "type": "checkbox",
+     "options": [["HTN", "Hypertension"], ["DM", "Diabetes"], ["HLD", "High cholesterol"], ["ASTHMA", "Asthma"], ["COPD", "COPD"], ["CAD", "Heart attack or coronary artery disease"], ["CHF", "Congestive heart failure"], ["AFIB", "Atrial fibrillation"], ["STROKE", "Stroke"], ["GERD", "Esophageal reflux or GERD"], ["ARTH", "Arthritis"], ["CANCER", "Cancer"], ["NONE", "None of these"]]},
+    {"id": "SURG_ANY", "item": "SURG", "title": "Surgical history", "question": "Previous surgeries", "type": "radio",
+     "options": [["N", "None"], ["Y", "Yes"]]},
+    {"id": "SURG1", "item": "SURG", "title": "Surgical history", "question": "Procedure", "type": "text"},
+    {"id": "SURG1_YEAR", "item": "SURG", "title": "Surgical history", "question": "Year of procedure", "type": "number", "step": "1"},
+
+    {"id": "TOBACCO", "item": "TOBACCO", "title": "Tobacco assessment", "question": "Smoking status", "type": "radio",
+     "options": [["EVERY", "Every day smoker"], ["SOME", "Some days smoker"], ["FORMER", "Former smoker"], ["NEVER", "Never smoked"], ["PASSIVE", "Passive smoker (exposure to others who smoke)"]]},
+    {"id": "ALCOHOL_ANY", "item": "ALCOHOL", "title": "Alcohol history", "question": "Alcohol use", "type": "radio",
+     "options": [["N", "Does not drink"], ["Y", "Drinks alcohol"]]},
+    {"id": "DRINKS_WK", "item": "ALCOHOL", "title": "Alcohol history", "question": "Drinks per week", "type": "number", "step": "1"},
+    {"id": "EXERCISE", "item": "EXERCISE", "title": "Physical activity", "question": "Exercise, days per week", "type": "radio",
+     "options": [["A", "None"], ["B", "1 to 2 days a week"], ["C", "3 to 4 days a week"], ["D", "5 or more days a week"]]},
+
+    {"id": "ROS", "item": "ROS", "title": "Review of systems", "question": "Symptoms reported today", "type": "checkbox",
+     "options": [["FEVER", "Fever or chills"], ["CHEST", "Chest pain"], ["SOB", "Shortness of breath"], ["COUGH", "Cough"], ["HEAD", "Headache"], ["DIZZY", "Dizziness"], ["NAUSEA", "Nausea or vomiting"], ["NONE", "None of these"]]},
+
+    {"id": "FLU", "item": "FLU", "title": "Immunizations", "question": "Flu vaccine", "type": "radio",
+     "options": [["THIS", "This season"], ["LAST", "Last season"], ["OLDER", "More than a year ago"], ["NEVER", "Never or unknown"]]}
+  ],
+  "shared_options": {
+    "FREQ": [["QD", "Once a day"], ["BID", "Twice a day"], ["TID", "Three times a day"], ["QID", "Four times a day"], ["QHS", "At bedtime"], ["PRN", "As needed"]]
+  },
+  "skip_rules": [
+    {"if": "ALLERGY_STATUS", "equals": "N", "skip": ["ALLERGENS", "REACTION"], "note": "No known allergies"},
+    {"if": "SURG_ANY", "equals": "N", "skip": ["SURG1", "SURG1_YEAR"], "note": "No previous surgeries"},
+    {"if": "ALCOHOL_ANY", "equals": "N", "skip": ["DRINKS_WK"], "note": "Does not drink"}
+  ]
+}

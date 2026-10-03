@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Edie Cursor</title>
+<meta name="description" content="Edie is an AI cursor that fills a clinical form with you while you talk to your patient. An open-source prototype that runs on a laptop.">
+<meta property="og:title" content="Edie Cursor">
+<meta property="og:description" content="An AI cursor that fills a clinical form with you while you talk to your patient. Nothing is filled until you accept it.">
+<meta property="og:image" content="https://shreya-mendi.github.io/edie-cursor/assets/poster.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+<style>
+@font-face { font-family: "Mona Sans"; src: url("assets/fonts/MonaSans-latin.woff2") format("woff2"); font-weight: 400 700; font-display: swap; }
+:root {
+  --bg: #f8faff; --card: #ffffff; --ink: #141a2e; --ink2: #4b5568; --ink3: #8a94a8; --line: #e4e9f2;
+  --sky: #38bdf8; --sky-d: #0284c7; --indigo: #6366f1; --amber: #f59e0b;
+  --grad: linear-gradient(90deg, #0ea5e9, #6366f1);
+  --shadow: 0 1px 2px rgba(20, 26, 46, .04), 0 12px 32px rgba(20, 26, 46, .07);
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 72px; }
+body { margin: 0; color: var(--ink); background: var(--bg);
+  background-image: radial-gradient(900px 520px at 85% -10%, rgba(99, 102, 241, .10), transparent 70%),
+    radial-gradient(800px 520px at 5% 10%, rgba(56, 189, 248, .12), transparent 70%);
+  background-repeat: no-repeat;
+  font: 17px/1.6 "Mona Sans", -apple-system, "Segoe UI", sans-serif; -webkit-font-smoothing: antialiased; }
+a { color: inherit; }
+img, video { display: block; max-width: 100%; }
+.wrap { width: min(1080px, 100% - 32px); margin: 0 auto; }
+
+/* Nav */
+.nav { position: sticky; top: 0; z-index: 10; background: rgba(248, 250, 255, .82); backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(228, 233, 242, .8); }
+.nav .wrap { display: flex; align-items: center; gap: 24px; height: 60px; }
+.brand { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 18px; text-decoration: none; letter-spacing: -.01em; }
+.brand img { width: 30px; height: 30px; }
+.links { margin-left: auto; display: flex; gap: 22px; font-size: 15px; }
+.links a { text-decoration: none; color: var(--ink2); }
+.links a:hover { color: var(--ink); }
+
+/* Hero */
+.hero { text-align: center; padding: 72px 0 24px; }
+.pill { display: inline-flex; align-items: center; gap: 8px; padding: 7px 16px; border-radius: 999px; font-size: 12.5px; font-weight: 600;
+  letter-spacing: .08em; text-transform: uppercase; color: var(--indigo); background: rgba(99, 102, 241, .07); border: 1px solid rgba(99, 102, 241, .22); }
+.pill i { width: 7px; height: 7px; border-radius: 50%; background: #22c55e; }
+h1 { margin: 26px auto 18px; max-width: 860px; font-size: clamp(40px, 7vw, 72px); line-height: 1.04; letter-spacing: -.035em; font-weight: 700; }
+.grad { white-space: nowrap; background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.lede { max-width: 680px; margin: 0 auto; font-size: clamp(17px, 2.2vw, 20px); color: var(--ink2); }
+.warn { display: inline-block; max-width: 680px; margin: 24px auto 0; padding: 10px 16px; border-radius: 12px; font-size: 14.5px;
+  color: #8a4b0b; background: #fff8ef; border: 1px solid #fbd9a8; }
+.ctas { display: flex; justify-content: center; gap: 14px; flex-wrap: wrap; margin: 30px 0 44px; }
+.btn { display: inline-flex; align-items: center; gap: 8px; padding: 13px 26px; border-radius: 999px; font-weight: 600; font-size: 16px; text-decoration: none; }
+.btn.primary { color: #fff; background: var(--grad); box-shadow: 0 10px 24px rgba(79, 70, 229, .25); }
+.btn.ghost { color: var(--indigo); background: rgba(99, 102, 241, .06); border: 1px solid rgba(99, 102, 241, .25); }
+
+/* Product window */
+.window { background: var(--card); border: 1px solid var(--line); border-radius: 16px; box-shadow: 0 30px 80px rgba(20, 26, 46, .14); overflow: hidden; text-align: left; }
+.bar { display: flex; align-items: center; gap: 14px; height: 40px; padding: 0 14px; background: #f3f6fb; border-bottom: 1px solid var(--line); }
+.dots { display: flex; gap: 7px; }
+.dots i { width: 11px; height: 11px; border-radius: 50%; background: #d7dde8; }
+.url { flex: 1; max-width: 420px; margin: 0 auto; padding: 4px 12px; border-radius: 8px; background: #fff; border: 1px solid var(--line);
+  font-size: 12.5px; color: var(--ink3); text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.window video { width: 100%; aspect-ratio: 16 / 9; background: #eef2f8; }
+.caption { margin: 14px 0 0; font-size: 14px; color: var(--ink3); text-align: center; }
+
+/* Sections */
+section.block { padding: 88px 0 0; }
+.eyebrow { margin: 0 0 10px; font-size: 13px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--sky-d); }
+h2 { margin: 0 0 18px; font-size: clamp(30px, 4.4vw, 44px); line-height: 1.12; letter-spacing: -.025em; font-weight: 700; max-width: 820px; }
+.sub { margin: 0 0 32px; max-width: 720px; color: var(--ink2); font-size: 18px; }
+.two { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; color: var(--ink2); }
+.two p { margin: 0; }
+.quote { margin-top: 28px; padding: 22px 26px; border-radius: 16px; background: var(--card); border: 1px solid var(--line); box-shadow: var(--shadow);
+  font-size: 19px; color: var(--ink); }
+.quote b { background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+
+.steps { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; }
+.step { background: var(--card); border: 1px solid var(--line); border-radius: 18px; box-shadow: var(--shadow); overflow: hidden; }
+.step img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; object-position: top left; border-bottom: 1px solid var(--line); background: #eef2f8; }
+.step .t { padding: 18px 22px 22px; }
+.step h3 { margin: 0 0 6px; font-size: 19px; letter-spacing: -.01em; display: flex; align-items: center; gap: 10px; }
+.step h3 span { flex: none; width: 26px; height: 26px; border-radius: 50%; display: grid; place-items: center; font-size: 13px; color: #fff; background: var(--grad); }
+.step p { margin: 0; color: var(--ink2); font-size: 16px; }
+.cursors { display: flex; gap: 12px; flex-wrap: wrap; margin: -12px 0 28px; }
+.tag { display: inline-flex; align-items: center; gap: 8px; padding: 6px 12px; border-radius: 10px; font-size: 14.5px; font-weight: 600; background: var(--card); border: 1px solid var(--line); }
+.tag i { width: 12px; height: 12px; border-radius: 4px; }
+
+.models { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-bottom: 26px; }
+.model { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 20px 22px; box-shadow: var(--shadow); }
+.model small { display: block; font-size: 12.5px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--indigo); }
+.model b { display: block; margin: 6px 0 4px; font-size: 18px; letter-spacing: -.01em; }
+.model p { margin: 0; color: var(--ink2); font-size: 15.5px; }
+.facts { margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: 1fr 1fr; gap: 14px 28px; color: var(--ink2); font-size: 16px; }
+.facts li { padding-left: 22px; position: relative; }
+.facts li::before { content: ""; position: absolute; left: 0; top: .62em; width: 9px; height: 9px; border-radius: 3px; background: var(--grad); }
+.facts b { color: var(--ink); }
+
+.status { margin: 88px 0 0; padding: 40px; border-radius: 22px; background: var(--card); border: 1px solid var(--line); box-shadow: var(--shadow); }
+.status h2 { font-size: clamp(26px, 3.4vw, 34px); }
+.status p { margin: 0 0 14px; color: var(--ink2); max-width: 760px; }
+.status .ctas { justify-content: flex-start; margin: 26px 0 0; }
+footer { padding: 48px 0 56px; color: var(--ink3); font-size: 14.5px; text-align: center; }
+
+@media (max-width: 860px) {
+  .links { display: none; }
+  .hero { padding-top: 48px; }
+  .two, .steps, .facts { grid-template-columns: 1fr; }
+  .models { grid-template-columns: 1fr; }
+  section.block { padding-top: 64px; }
+  .status { padding: 26px 20px; margin-top: 64px; }
+}
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="#top"><img src="assets/logo.svg" alt="">Edie Cursor</a>
+    <nav class="links" aria-label="Sections">
+      <a href="#problem">Problem</a><a href="#how">How it works</a><a href="#hood">Under the hood</a><a href="https://github.com/Shreya-Mendi/edie-cursor">GitHub</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap">
+      <span class="pill"><i></i>Open-source prototype · runs on a laptop</span>
+      <h1>What if your form <span class="grad">could listen?</span></h1>
+      <p class="lede">Edie is an AI cursor for clinical forms. She follows the conversation between a clinician and a patient, moves to the question being discussed, and suggests the answer with the exact words she heard. Nothing is filled until you accept it.</p>
+      <p class="warn">Prototype. Every visit shown here is made up, and Edie has not been tested with clinicians or real patients yet.</p>
+      <div class="ctas">
+        <a class="btn primary" href="#demo">Watch the demo ↓</a>
+        <a class="btn ghost" href="https://github.com/Shreya-Mendi/edie-cursor">View on GitHub →</a>
+      </div>
+      <div class="window" id="demo">
+        <div class="bar"><span class="dots"><i></i><i></i><i></i></span><span class="url">localhost:8000/dev/general</span></div>
+        <video src="assets/edie-cursor-demo.mp4" poster="assets/poster.jpg" controls muted autoplay loop playsinline preload="metadata"></video>
+      </div>
+      <p class="caption">A made-up new patient visit, replayed at 2x on a laptop. The form is a mock EHR screen.</p>
+    </div>
+  </section>
+
+  <section class="block" id="problem">
+    <div class="wrap">
+      <p class="eyebrow">The problem</p>
+      <h2>Clinicians type while they listen.</h2>
+      <div class="two">
+        <p>During a visit, the clinician has to follow the conversation and click through a form at the same time. A new patient intake has dozens of questions. A home health start of care assessment (OASIS) has many more, and each answer has to match an exact code.</p>
+        <p>So their eyes go to the screen instead of the patient, or the form gets finished after the visit. AI scribes can draft a note, but a form is different. Every checkbox and code still has to be right, and someone has to check each one.</p>
+      </div>
+      <p class="quote">The idea: an AI assistant that works through a cursor, <b>right on the form</b>, so the clinician can always see and check what it does.</p>
+    </div>
+  </section>
+
+  <section class="block" id="how">
+    <div class="wrap">
+      <p class="eyebrow">The solution</p>
+      <h2>Edie fills the form with you, and you stay in charge.</h2>
+      <p class="sub">Two cursors share the screen. Edie follows the conversation, and your own cursor can point at any question.</p>
+      <div class="cursors">
+        <span class="tag"><i style="background:#38bdf8"></i>Edie's cursor</span>
+        <span class="tag"><i style="background:#f59e0b"></i>Your cursor</span>
+      </div>
+      <div class="steps">
+        <article class="step">
+          <img src="assets/shot-follow.png" alt="Edie's light blue cursor on a question of the form, with her suggestion waiting on it" loading="lazy">
+          <div class="t"><h3><span>1</span>She follows the conversation</h3><p>As the visit goes on, Edie moves to the question being discussed and leaves her suggestion on it.</p></div>
+        </article>
+        <article class="step">
+          <img src="assets/shot-evidence.png" alt="The conversation panel scrolled to the line a suggestion came from, with the quoted words marked" loading="lazy">
+          <div class="t"><h3><span>2</span>Every suggestion shows its evidence</h3><p>Click a suggestion and the conversation scrolls to the exact line it came from, with the words marked.</p></div>
+        </article>
+        <article class="step">
+          <img src="assets/shot-point.png" alt="The amber You box on a question the user pointed at" loading="lazy">
+          <div class="t"><h3><span>3</span>Point at a question to ask</h3><p>Click any question with your own cursor and Edie answers just that one.</p></div>
+        </article>
+        <article class="step">
+          <img src="assets/shot-filled.png" alt="The form after accepting the suggestions, with values filled in" loading="lazy">
+          <div class="t"><h3><span>4</span>You accept, and nothing is submitted</h3><p>Accept suggestions one at a time or all at once. Edie never fills a field on her own and never submits the form.</p></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="hood">
+    <div class="wrap">
+      <p class="eyebrow">Under the hood</p>
+      <h2>Edie runs on small open models on your laptop.</h2>
+      <p class="sub">No API keys. The conversation is processed on the machine and is never sent anywhere.</p>
+      <div class="models">
+        <div class="model"><small>Listening</small><b>Whisper large-v3-turbo</b><p>Turns speech into text in Live mode. About 1.6 GB, on Apple silicon with MLX.</p></div>
+        <div class="model"><small>Finding the question</small><b>all-MiniLM-L6-v2</b><p>Matches each sentence of the conversation to the questions on the page, so Edie knows where to go.</p></div>
+        <div class="model"><small>Answering</small><b>Qwen3-4B, 4-bit</b><p>Writes the suggestion and quotes its evidence. About 2.3 GB, on Apple silicon with MLX.</p></div>
+      </div>
+      <ul class="facts">
+        <li><b>Code checks every answer.</b> The quote has to appear in one line of the conversation and the answer has to be a real option on the form. If a check fails, the field stays empty.</li>
+        <li><b>Numbers are read by code.</b> The model writes down what was said, like "one thirty-eight over eighty-six". Code turns it into the right number and unit.</li>
+        <li><b>No setup per form.</b> Edie reads the questions from the page's own labels, the same way a screen reader does. She has been tried on two forms: a primary care new patient visit (26 fields) and a slice of the CMS OASIS-E2 home health assessment (24 fields).</li>
+        <li><b>Finish all is quick in the demo.</b> It reuses answers the model already gave for the same conversation. The model always gives the same answer to the same input, so nothing changes except the wait.</li>
+      </ul>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <section class="status">
+      <p class="eyebrow">Where it stands</p>
+      <h2>Edie is a working prototype of one idea.</h2>
+      <p>Edie works end to end on replayed visits for both forms. Live mode with a microphone is built, but it has had much less testing than replay. Every visit in the demo is made up, and she has not been used with clinicians or real patient audio. She is not a medical device.</p>
+      <div class="ctas">
+        <a class="btn primary" href="https://github.com/Shreya-Mendi/edie-cursor">Code and setup on GitHub →</a>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer>Built by Shreya Mendi · Duke MEng in AI · MIT license</footer>
+</body>
+</html>

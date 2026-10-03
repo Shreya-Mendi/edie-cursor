@@ -1,0 +1,701 @@
+{
+  "source": {
+    "title": "OASIS-E2 All Items",
+    "publisher": "Centers for Medicare & Medicaid Services",
+    "effective": "2026-04-01",
+    "url": "https://www.cms.gov/files/document/oasis-e2-all-item-12-11-2025-508c.pdf",
+    "local_copy": "oasis/oasis-e2-all-item-12-11-2025.pdf",
+    "note": "Verbatim text for a 24-field slice of CMS-authored items. Excluded for licensing: A1255 (NACHC PRAPARE, no redistribution), B1300 (CC BY-NC 4.0), D0150 (PHQ, Pfizer copyright). N0415 uses column 1 (Is taking) only. M1100 grid labels are joined as 'row | column'."
+  },
+  "fields": [
+    {
+      "id": "M0066",
+      "item": "M0066",
+      "title": "Birth Date",
+      "question": "Birth Date",
+      "type": "date",
+      "page": 3
+    },
+    {
+      "id": "A1005",
+      "item": "A1005",
+      "title": "Ethnicity",
+      "question": "Are you of Hispanic, Latino/a, or Spanish origin?",
+      "type": "checkbox",
+      "page": 3,
+      "options": [
+        [
+          "A",
+          "No, not of Hispanic, Latino/a, or Spanish origin"
+        ],
+        [
+          "B",
+          "Yes, Mexican, Mexican American, Chicano/a"
+        ],
+        [
+          "C",
+          "Yes, Puerto Rican"
+        ],
+        [
+          "D",
+          "Yes, Cuban"
+        ],
+        [
+          "E",
+          "Yes, another Hispanic, Latino, or Spanish origin"
+        ],
+        [
+          "X",
+          "Patient unable to respond"
+        ],
+        [
+          "Y",
+          "Patient declines to respond"
+        ]
+      ]
+    },
+    {
+      "id": "A1010",
+      "item": "A1010",
+      "title": "Race",
+      "question": "What is your race?",
+      "type": "checkbox",
+      "page": 3,
+      "options": [
+        [
+          "A",
+          "White"
+        ],
+        [
+          "B",
+          "Black or African American"
+        ],
+        [
+          "C",
+          "American Indian or Alaska Native"
+        ],
+        [
+          "D",
+          "Asian Indian"
+        ],
+        [
+          "E",
+          "Chinese"
+        ],
+        [
+          "F",
+          "Filipino"
+        ],
+        [
+          "G",
+          "Japanese"
+        ],
+        [
+          "H",
+          "Korean"
+        ],
+        [
+          "I",
+          "Vietnamese"
+        ],
+        [
+          "J",
+          "Other Asian"
+        ],
+        [
+          "K",
+          "Native Hawaiian"
+        ],
+        [
+          "L",
+          "Guamanian or Chamorro"
+        ],
+        [
+          "M",
+          "Samoan"
+        ],
+        [
+          "N",
+          "Other Pacific Islander"
+        ],
+        [
+          "X",
+          "Patient unable to respond"
+        ],
+        [
+          "Y",
+          "Patient declines to respond"
+        ],
+        [
+          "Z",
+          "None of the above"
+        ]
+      ]
+    },
+    {
+      "id": "M0150",
+      "item": "M0150",
+      "title": "Current Payment Sources for Home Care",
+      "question": "Current Payment Sources for Home Care",
+      "type": "checkbox",
+      "page": 4,
+      "options": [
+        [
+          "0",
+          "None; no charge for current services"
+        ],
+        [
+          "1",
+          "Medicare (traditional fee-for-service)"
+        ],
+        [
+          "2",
+          "Medicare (HMO/managed care/Advantage plan)"
+        ],
+        [
+          "3",
+          "Medicaid (traditional fee-for-service)"
+        ],
+        [
+          "4",
+          "Medicaid (HMO/managed care)"
+        ],
+        [
+          "5",
+          "Worker’s compensation"
+        ],
+        [
+          "6",
+          "Title programs (for example, Title III, V, or XX)"
+        ],
+        [
+          "7",
+          "Other government (for example, TriCare, VA)"
+        ],
+        [
+          "8",
+          "Private insurance"
+        ],
+        [
+          "9",
+          "Private HMO/managed care"
+        ],
+        [
+          "10",
+          "Self-pay"
+        ],
+        [
+          "11",
+          "Other (specify)"
+        ],
+        [
+          "UK",
+          "Unknown"
+        ]
+      ]
+    },
+    {
+      "id": "A1110A",
+      "item": "A1110",
+      "title": "Language",
+      "question": "A. What is your preferred language?",
+      "type": "text",
+      "page": 4
+    },
+    {
+      "id": "A1110B",
+      "item": "A1110",
+      "title": "Language",
+      "question": "B. Do you need or want an interpreter to communicate with a doctor or health care staff?",
+      "type": "radio",
+      "page": 4,
+      "options": [
+        [
+          "0",
+          "No"
+        ],
+        [
+          "1",
+          "Yes"
+        ],
+        [
+          "9",
+          "Unable to determine"
+        ]
+      ]
+    },
+    {
+      "id": "C0200",
+      "item": "C0200",
+      "title": "Repetition of Three Words",
+      "ask": "I am going to say three words for you to remember. Please repeat the words after I have said all three. The words are: sock, blue, and bed. Now tell me the three words.",
+      "question": "Number of words repeated after first attempt:",
+      "type": "radio",
+      "page": 8,
+      "options": [
+        [
+          "0",
+          "None"
+        ],
+        [
+          "1",
+          "One"
+        ],
+        [
+          "2",
+          "Two"
+        ],
+        [
+          "3",
+          "Three"
+        ]
+      ]
+    },
+    {
+      "id": "C0300A",
+      "item": "C0300",
+      "title": "Temporal Orientation (Orientation to year, month, and day)",
+      "ask": "Please tell me what year it is right now.",
+      "question": "A. Able to report correct year",
+      "type": "radio",
+      "page": 8,
+      "options": [
+        [
+          "0",
+          "Missed by > 5 years or no answer"
+        ],
+        [
+          "1",
+          "Missed by 2-5 years"
+        ],
+        [
+          "2",
+          "Missed by 1 year"
+        ],
+        [
+          "3",
+          "Correct"
+        ]
+      ]
+    },
+    {
+      "id": "C0300B",
+      "item": "C0300",
+      "title": "Temporal Orientation (Orientation to year, month, and day)",
+      "ask": "What month are we in right now?",
+      "question": "B. Able to report correct month",
+      "type": "radio",
+      "page": 8,
+      "options": [
+        [
+          "0",
+          "Missed by > 1 month or no answer"
+        ],
+        [
+          "1",
+          "Missed by 6 days to 1 month"
+        ],
+        [
+          "2",
+          "Accurate within 5 days"
+        ]
+      ]
+    },
+    {
+      "id": "C0300C",
+      "item": "C0300",
+      "title": "Temporal Orientation (Orientation to year, month, and day)",
+      "ask": "What day of the week is today?",
+      "question": "C. Able to report correct day of the week",
+      "type": "radio",
+      "page": 8,
+      "options": [
+        [
+          "0",
+          "Incorrect or no answer"
+        ],
+        [
+          "1",
+          "Correct"
+        ]
+      ]
+    },
+    {
+      "id": "D0700",
+      "item": "D0700",
+      "title": "Social Isolation",
+      "question": "How often do you feel lonely or isolated from those around you?",
+      "type": "radio",
+      "page": 11,
+      "options": [
+        [
+          "0",
+          "Never"
+        ],
+        [
+          "1",
+          "Rarely"
+        ],
+        [
+          "2",
+          "Sometimes"
+        ],
+        [
+          "3",
+          "Often"
+        ],
+        [
+          "4",
+          "Always"
+        ],
+        [
+          "7",
+          "Patient declines to respond"
+        ],
+        [
+          "8",
+          "Patient unable to respond"
+        ]
+      ]
+    },
+    {
+      "id": "M1100",
+      "item": "M1100",
+      "title": "Patient Living Situation",
+      "question": "Which of the following best describes the patient’s residential circumstance and availability of assistance?",
+      "type": "radio",
+      "page": 12,
+      "grid": {
+        "rows": [
+          [
+            "A",
+            "Patient lives alone"
+          ],
+          [
+            "B",
+            "Patient lives with other person(s) in the home"
+          ],
+          [
+            "C",
+            "Patient lives in congregate situation (for example, assisted living, residential care home)"
+          ]
+        ],
+        "cols": [
+          "Around the Clock",
+          "Regular Daytime",
+          "Regular Night-time",
+          "Occasional/Short-Term Assistance",
+          "No Assistance Available"
+        ]
+      }
+    },
+    {
+      "id": "GG0100A",
+      "item": "GG0100",
+      "title": "Prior Functioning: Everyday Activities",
+      "question": "A. Self Care: Code the patient’s need for assistance with bathing, dressing, using the toilet, and eating prior to the current illness, exacerbation, or injury.",
+      "type": "radio",
+      "page": 15,
+      "options_ref": "GG0100"
+    },
+    {
+      "id": "GG0100B",
+      "item": "GG0100",
+      "title": "Prior Functioning: Everyday Activities",
+      "question": "B. Indoor Mobility (Ambulation): Code the patient’s need for assistance with walking from room to room (with or without a device such as cane, crutch or walker) prior to the current illness, exacerbation, or injury.",
+      "type": "radio",
+      "page": 15,
+      "options_ref": "GG0100"
+    },
+    {
+      "id": "GG0100C",
+      "item": "GG0100",
+      "title": "Prior Functioning: Everyday Activities",
+      "question": "C. Stairs: Code the patient’s need for assistance with internal or external stairs (with or without a device such as cane, crutch, or walker) prior to the current illness, exacerbation, or injury.",
+      "type": "radio",
+      "page": 15,
+      "options_ref": "GG0100"
+    },
+    {
+      "id": "GG0100D",
+      "item": "GG0100",
+      "title": "Prior Functioning: Everyday Activities",
+      "question": "D. Functional Cognition: Code the patient’s need for assistance with planning regular tasks, such as shopping or remembering to take medication prior to the current illness, exacerbation, or injury.",
+      "type": "radio",
+      "page": 15,
+      "options_ref": "GG0100"
+    },
+    {
+      "id": "GG0110",
+      "item": "GG0110",
+      "title": "Prior Device Use",
+      "question": "Indicate devices and aids used by the patient prior to the current illness, exacerbation, or injury.",
+      "type": "checkbox",
+      "page": 15,
+      "options": [
+        [
+          "A",
+          "Manual wheelchair"
+        ],
+        [
+          "B",
+          "Motorized wheelchair and/or scooter"
+        ],
+        [
+          "C",
+          "Mechanical lift"
+        ],
+        [
+          "D",
+          "Walker"
+        ],
+        [
+          "E",
+          "Orthotics/prosthetics"
+        ],
+        [
+          "Z",
+          "None of the above"
+        ]
+      ]
+    },
+    {
+      "id": "M1033",
+      "item": "M1033",
+      "title": "Risk for Hospitalization",
+      "question": "Which of the following signs or symptoms characterize this patient as at risk for hospitalization?",
+      "type": "checkbox",
+      "page": 22,
+      "options": [
+        [
+          "1",
+          "History of falls (2 or more falls — or any fall with an injury — in the past 12 months)"
+        ],
+        [
+          "2",
+          "Unintentional weight loss of a total of 10 pounds or more in the last 12 months"
+        ],
+        [
+          "3",
+          "Multiple hospitalizations (2 or more) in the past 6 months"
+        ],
+        [
+          "4",
+          "Multiple emergency department visits (2 or more) in the past 6 months"
+        ],
+        [
+          "5",
+          "Decline in mental, emotional, or behavioral status in the past 3 months"
+        ],
+        [
+          "6",
+          "Reported or observed history of difficulty complying with any medical instructions (for example, medications, diet, exercise) in the past 3 months"
+        ],
+        [
+          "7",
+          "Currently taking 5 or more medications"
+        ],
+        [
+          "8",
+          "Currently reports exhaustion"
+        ],
+        [
+          "9",
+          "Other risk(s) not listed in 1-8"
+        ],
+        [
+          "10",
+          "None of the above"
+        ]
+      ]
+    },
+    {
+      "id": "J0510",
+      "item": "J0510",
+      "title": "Pain Effect on Sleep",
+      "ask": "Over the past 5 days, how much of the time has pain made it hard for you to sleep at night?",
+      "question": "Pain Effect on Sleep",
+      "type": "radio",
+      "page": 26,
+      "options": [
+        [
+          "0",
+          "Does not apply — I have not had any pain or hurting in the past 5 days"
+        ],
+        [
+          "1",
+          "Rarely or not at all"
+        ],
+        [
+          "2",
+          "Occasionally"
+        ],
+        [
+          "3",
+          "Frequently"
+        ],
+        [
+          "4",
+          "Almost constantly"
+        ],
+        [
+          "8",
+          "Unable to answer"
+        ]
+      ]
+    },
+    {
+      "id": "J0530",
+      "item": "J0530",
+      "title": "Pain Interference with Day-to-Day Activities",
+      "ask": "Over the past 5 days, how often you have limited your day-to-day activities (excluding rehabilitation therapy sessions) because of pain?",
+      "question": "Pain Interference with Day-to-Day Activities",
+      "type": "radio",
+      "page": 26,
+      "options": [
+        [
+          "1",
+          "Rarely or not at all"
+        ],
+        [
+          "2",
+          "Occasionally"
+        ],
+        [
+          "3",
+          "Frequently"
+        ],
+        [
+          "4",
+          "Almost constantly"
+        ],
+        [
+          "8",
+          "Unable to answer"
+        ]
+      ]
+    },
+    {
+      "id": "M1400",
+      "item": "M1400",
+      "title": "When is the patient dyspneic or noticeably Short of Breath?",
+      "question": "When is the patient dyspneic or noticeably Short of Breath?",
+      "type": "radio",
+      "page": 26,
+      "options": [
+        [
+          "0",
+          "Patient is not short of breath"
+        ],
+        [
+          "1",
+          "When walking more than 20 feet, climbing stairs"
+        ],
+        [
+          "2",
+          "With moderate exertion (for example, while dressing, using commode or bedpan, walking distances less than 20 feet)"
+        ],
+        [
+          "3",
+          "With minimal exertion (for example, while eating, talking, or performing other ADLs) or with agitation"
+        ],
+        [
+          "4",
+          "At rest (during day or night)"
+        ]
+      ]
+    },
+    {
+      "id": "M1060A",
+      "item": "M1060",
+      "title": "Height and Weight",
+      "instruction": "While measuring, if the number is X.1-X.4 round down; X.5 or greater round up.",
+      "question": "A. Height (in inches). Record most recent height measure since the most recent SOC/ROC",
+      "type": "number",
+      "unit": "inches",
+      "page": 27
+    },
+    {
+      "id": "M1060B",
+      "item": "M1060",
+      "title": "Height and Weight",
+      "instruction": "While measuring, if the number is X.1-X.4 round down; X.5 or greater round up.",
+      "question": "B. Weight (in pounds). Base weight on most recent measure in last 30 days; measure weight consistently, according to standard agency practice (for example, in a.m. after voiding, before meal, with shoes off, etc.)",
+      "type": "number",
+      "unit": "pounds",
+      "page": 27
+    },
+    {
+      "id": "N0415",
+      "item": "N0415",
+      "title": "High-Risk Drug Classes: Use and Indication",
+      "question": "1. Is taking: Check if the patient is taking any medications by pharmacological classification, not how it is used, in the following classes",
+      "type": "checkbox",
+      "page": 31,
+      "options": [
+        [
+          "A",
+          "Antipsychotic"
+        ],
+        [
+          "E",
+          "Anticoagulant"
+        ],
+        [
+          "F",
+          "Antibiotic"
+        ],
+        [
+          "H",
+          "Opioid"
+        ],
+        [
+          "I",
+          "Antiplatelet"
+        ],
+        [
+          "J",
+          "Hypoglycemic (including insulin)"
+        ],
+        [
+          "Z",
+          "None of the above"
+        ]
+      ]
+    }
+  ],
+  "shared_options": {
+    "GG0100": [
+      [
+        "3",
+        "Independent – Patient completed all the activities by themself, with or without an assistive device, with no assistance from a helper."
+      ],
+      [
+        "2",
+        "Needed Some Help – Patient needed partial assistance from another person to complete any activities."
+      ],
+      [
+        "1",
+        "Dependent – A helper completed all the activities for the patient."
+      ],
+      [
+        "8",
+        "Unknown"
+      ],
+      [
+        "9",
+        "Not Applicable"
+      ]
+    ]
+  },
+  "skip_rules": [
+    {
+      "if": "J0510",
+      "equals": "0",
+      "skip": [
+        "J0530"
+      ],
+      "note": "J0510 is 0, no pain in the past 5 days"
+    }
+  ]
+}

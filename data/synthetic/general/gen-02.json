@@ -1,0 +1,245 @@
+{
+  "id": "gen-02",
+  "title": "New patient, dizziness on standing, diabetes and blood pressure",
+  "visit": {
+    "date": "2026-10-06",
+    "weekday": "Tuesday",
+    "discipline": "MD"
+  },
+  "speakers": {
+    "Dr. Patel": "clinician",
+    "Linda": "patient"
+  },
+  "turns": [
+    {
+      "who": "Dr. Patel",
+      "text": "Good morning, Mrs. Park. I'm Dr. Patel. What brings you in today?",
+      "route": [
+        "CC"
+      ]
+    },
+    {
+      "who": "Linda",
+      "text": "I've been getting dizzy when I stand up, and I need a refill on my metformin."
+    },
+    {
+      "who": "Dr. Patel",
+      "text": "When did the dizziness start?",
+      "route": [
+        "ONSET"
+      ]
+    },
+    {
+      "who": "Linda",
+      "text": "About three days ago."
+    },
+    {
+      "who": "Dr. Patel",
+      "text": "Any pain today, zero to ten?",
+      "route": [
+        "PAIN"
+      ]
+    },
+    {
+      "who": "Linda",
+      "text": "No pain. Zero."
+    },
+    {
+      "who": "Dr. Patel",
+      "text": "Your blood pressure today is one twenty-eight over seventy-eight, and your pulse is eighty-eight.",
+      "route": [
+        "BP_SYS",
+        "BP_DIA",
+        "HR"
+      ]
+    },
+    {
+      "who": "Dr. Patel",
+      "text": "Temperature is ninety-eight point one, and your oxygen is ninety-seven percent.",
+      "route": [
+        "TEMP",
+        "SPO2"
+      ]
+    },
+    {
+      "who": "Linda",
+      "text": "Okay."
+    },
+    {
+      "who": "Dr. Patel",
+      "text": "The nurse got your weight as one sixty-eight, and your height as five four.",
+      "route": [
+        "WT",
+        "HT"
+      ]
+    },
+    {
+      "who": "Dr. Patel",
+      "text": "Do you have any allergies?",
+      "route": [
+        "ALLERGY_STATUS",
+        "ALLERGENS"
+      ]
+    },
+    {
+      "who": "Linda",
+      "text": "Penicillin. I break out in hives."
+    },
+    {
+      "who": "Dr. Patel",
+      "text": "What are you taking right now?",
+      "route": [
+        "MED1"
+      ]
+    },
+    {
+      "who": "Linda",
+      "text": "Metformin, a thousand milligrams twice a day, and amlodipine, five milligrams in the morning. I stopped the atorvastatin last month because my legs ached."
+    },
+    {
+      "who": "Dr. Patel",
+      "text": "Got it, so no statin right now. Any other conditions besides the diabetes and blood pressure?",
+      "route": [
+        "PMH"
+      ]
+    },
+    {
+      "who": "Linda",
+      "text": "High cholesterol. That's why I was on the statin."
+    },
+    {
+      "who": "Dr. Patel",
+      "text": "Any surgeries in the past?",
+      "route": [
+        "SURG_ANY"
+      ]
+    },
+    {
+      "who": "Linda",
+      "text": "No surgeries."
+    },
+    {
+      "who": "Dr. Patel",
+      "text": "Have you ever smoked?",
+      "route": [
+        "TOBACCO"
+      ]
+    },
+    {
+      "who": "Linda",
+      "text": "Never."
+    },
+    {
+      "who": "Dr. Patel",
+      "text": "Do you drink alcohol?",
+      "route": [
+        "ALCOHOL_ANY"
+      ]
+    },
+    {
+      "who": "Linda",
+      "text": "I don't drink."
+    },
+    {
+      "who": "Dr. Patel",
+      "text": "How much do you exercise?",
+      "route": [
+        "EXERCISE"
+      ]
+    },
+    {
+      "who": "Linda",
+      "text": "I walk the dog maybe twice a week."
+    },
+    {
+      "who": "Dr. Patel",
+      "text": "Besides the dizziness, any fever, chest pain, shortness of breath, cough, headache, or nausea?",
+      "route": [
+        "ROS"
+      ]
+    },
+    {
+      "who": "Linda",
+      "text": "A little nauseous in the mornings. Nothing else."
+    },
+    {
+      "who": "Dr. Patel",
+      "text": "When was your last flu shot?",
+      "route": [
+        "FLU"
+      ]
+    },
+    {
+      "who": "Linda",
+      "text": "Two weeks ago at the pharmacy, so late September."
+    },
+    {
+      "who": "Dr. Patel",
+      "text": "Tell me more about the dizziness.",
+      "route": []
+    },
+    {
+      "who": "Linda",
+      "text": "When I stand up fast, the room spins for a few seconds. It started a few days after I began the amlodipine."
+    },
+    {
+      "who": "Dr. Patel",
+      "text": "Okay, let's check your blood pressure standing up too.",
+      "route": []
+    }
+  ],
+  "gold": {
+    "CC": [
+      "DIZZY",
+      "REFILL"
+    ],
+    "ONSET": "D1_3",
+    "PAIN": "0",
+    "BP_SYS": 128,
+    "BP_DIA": 78,
+    "HR": 88,
+    "TEMP": 98.1,
+    "SPO2": 97,
+    "WT": 168.0,
+    "HT": 64,
+    "ALLERGY_STATUS": "Y",
+    "ALLERGENS": [
+      "PCN"
+    ],
+    "REACTION": [
+      "HIVES"
+    ],
+    "MED1": {
+      "keywords": [
+        [
+          "metformin"
+        ]
+      ]
+    },
+    "DOSE1": {
+      "keywords": [
+        [
+          "1000",
+          "1,000",
+          "thousand"
+        ]
+      ]
+    },
+    "FREQ1": "BID",
+    "PMH": [
+      "HTN",
+      "DM",
+      "HLD"
+    ],
+    "SURG_ANY": "N",
+    "TOBACCO": "NEVER",
+    "ALCOHOL_ANY": "N",
+    "EXERCISE": "B",
+    "ROS": [
+      "DIZZY",
+      "NAUSEA"
+    ],
+    "FLU": "THIS"
+  },
+  "notes": "Must stay empty: SURG1 and SURG1_YEAR (no surgeries; skipped), DRINKS_WK (does not drink; skipped). Traps: the stopped atorvastatin must not appear as a current medication; past history comes from the clinician and the patient; 'in the morning' is once a day; flu shot two weeks before an October visit is this season."
+}

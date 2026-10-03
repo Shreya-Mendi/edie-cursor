@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+runs/
+.DS_Store
+demo/out/
+.claude/
+data/cache/

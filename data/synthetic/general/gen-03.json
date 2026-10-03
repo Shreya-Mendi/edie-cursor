@@ -1,0 +1,204 @@
+{
+  "id": "gen-03",
+  "title": "New patient, cough and fever, asthma",
+  "visit": {
+    "date": "2026-10-07",
+    "weekday": "Wednesday",
+    "discipline": "PA"
+  },
+  "speakers": {
+    "Jordan": "clinician",
+    "Aisha": "patient"
+  },
+  "turns": [
+    {
+      "who": "Jordan",
+      "text": "Hi Aisha, I'm Jordan, one of the PAs. What's going on today?",
+      "route": [
+        "CC"
+      ]
+    },
+    {
+      "who": "Aisha",
+      "text": "I've had a cough and a fever since the weekend."
+    },
+    {
+      "who": "Jordan",
+      "text": "When did it start, exactly?",
+      "route": [
+        "ONSET"
+      ]
+    },
+    {
+      "who": "Aisha",
+      "text": "Saturday night. So four days now."
+    },
+    {
+      "who": "Jordan",
+      "text": "Any pain? Zero to ten.",
+      "route": [
+        "PAIN"
+      ]
+    },
+    {
+      "who": "Aisha",
+      "text": "My throat hurts from coughing, like a three."
+    },
+    {
+      "who": "Jordan",
+      "text": "Your temperature is a hundred point six.",
+      "route": [
+        "TEMP"
+      ]
+    },
+    {
+      "who": "Aisha",
+      "text": "That explains the chills."
+    },
+    {
+      "who": "Jordan",
+      "text": "Blood pressure is one eighteen over seventy-four, heart rate ninety-six, and oxygen ninety-seven.",
+      "route": [
+        "BP_SYS",
+        "BP_DIA",
+        "HR",
+        "SPO2"
+      ]
+    },
+    {
+      "who": "Jordan",
+      "text": "Your weight is one forty-one point two. How tall are you?",
+      "route": [
+        "WT",
+        "HT"
+      ]
+    },
+    {
+      "who": "Aisha",
+      "text": "Five six."
+    },
+    {
+      "who": "Jordan",
+      "text": "Any allergies?",
+      "route": [
+        "ALLERGY_STATUS",
+        "ALLERGENS"
+      ]
+    },
+    {
+      "who": "Aisha",
+      "text": "Sulfa drugs give me a rash."
+    },
+    {
+      "who": "Jordan",
+      "text": "What are you taking right now?",
+      "route": [
+        "MED1"
+      ]
+    },
+    {
+      "who": "Aisha",
+      "text": "My albuterol inhaler, a lot more than usual, like four times a day. And cough syrup at night."
+    },
+    {
+      "who": "Jordan",
+      "text": "Any medical problems?",
+      "route": [
+        "PMH"
+      ]
+    },
+    {
+      "who": "Aisha",
+      "text": "Asthma since I was a kid."
+    },
+    {
+      "who": "Jordan",
+      "text": "Do you smoke?",
+      "route": [
+        "TOBACCO"
+      ]
+    },
+    {
+      "who": "Aisha",
+      "text": "Just socially. A few on the weekends."
+    },
+    {
+      "who": "Jordan",
+      "text": "Besides the cough and fever, any chest pain, shortness of breath, headaches, dizziness, or nausea?",
+      "route": [
+        "ROS"
+      ]
+    },
+    {
+      "who": "Aisha",
+      "text": "I get short of breath going up stairs, and I've had a headache. No nausea."
+    },
+    {
+      "who": "Jordan",
+      "text": "Did you get a flu shot this year?",
+      "route": [
+        "FLU"
+      ]
+    },
+    {
+      "who": "Aisha",
+      "text": "Not this year. My last one was October 2025."
+    },
+    {
+      "who": "Jordan",
+      "text": "Tell me how this all started.",
+      "route": []
+    },
+    {
+      "who": "Aisha",
+      "text": "My roommate was sick last week. Saturday I got chills, and the cough started Sunday. It's worse at night."
+    },
+    {
+      "who": "Jordan",
+      "text": "Alright, let me listen to your lungs.",
+      "route": []
+    }
+  ],
+  "gold": {
+    "CC": [
+      "COUGH",
+      "FEVER"
+    ],
+    "ONSET": "D4_7",
+    "PAIN": "3",
+    "TEMP": 100.6,
+    "BP_SYS": 118,
+    "BP_DIA": 74,
+    "HR": 96,
+    "SPO2": 97,
+    "WT": 141.2,
+    "HT": 66,
+    "ALLERGY_STATUS": "Y",
+    "ALLERGENS": [
+      "SULFA"
+    ],
+    "REACTION": [
+      "RASH"
+    ],
+    "MED1": {
+      "keywords": [
+        [
+          "albuterol"
+        ]
+      ]
+    },
+    "FREQ1": "QID",
+    "PMH": [
+      "ASTHMA"
+    ],
+    "TOBACCO": "SOME",
+    "ROS": [
+      "FEVER",
+      "SOB",
+      "COUGH",
+      "HEAD"
+    ],
+    "FLU": "LAST"
+  },
+  "notes": "Must stay empty: DOSE1 and DOSE2 (no doses said), SURG_ANY, SURG1, SURG1_YEAR, ALCOHOL_ANY, DRINKS_WK, EXERCISE (never discussed). Traps: 100.6 needs one decimal; height said as 'five six'; fever and cough count as symptoms today even though the question excluded them; social smoking is Some days; 'at night' is At bedtime; last shot October 2025 is last season."
+}

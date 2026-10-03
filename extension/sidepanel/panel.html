@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Edie Cursor</title>
+<link rel="stylesheet" href="panel.css">
+</head>
+<body>
+<header>
+  <div class="logo" aria-hidden="true"><svg viewBox="0 0 24 24"><path class="st" d="M5 2.5v1M11 2.5v1M5 3v5a3 3 0 0 0 6 0V3"/><path class="st" d="M8 11v2.5a5 5 0 0 0 10 0V12"/><circle class="st" cx="18" cy="10" r="2"/></svg></div>
+  <div class="title"><b>Edie Cursor</b><span>Fills the form with you as you talk</span></div>
+  <div class="models" id="models" aria-label="Local models"><i></i><span>Local</span></div>
+</header>
+
+<div class="seg" role="tablist" aria-label="Mode">
+  <button role="tab" data-mode="live">Live</button>
+  <button role="tab" data-mode="replay">Replay</button>
+</div>
+
+<section id="live-ctl" class="ctl" hidden>
+  <button id="mic" class="primary">Start listening</button>
+  <div class="meter" aria-hidden="true"><i id="level"></i></div>
+  <div class="field-label">Who is talking</div>
+  <div class="who" role="group" aria-label="Who is talking">
+    <button data-s="clinician">Clinician</button><button data-s="patient">Patient</button><button data-s="auto">Auto</button>
+  </div>
+</section>
+
+<section id="replay-ctl" class="ctl">
+  <select id="visit" aria-label="Synthetic visit"></select>
+  <div class="row">
+    <button id="play" class="primary">Play</button>
+    <select id="speed" aria-label="Speed"><option value="1">1x</option><option value="2">2x</option><option value="4">4x</option></select>
+    <button id="finishall" title="The whole conversation at once, with a suggestion for every empty field">Finish all</button>
+    <button id="reset">Reset</button>
+  </div>
+  <div class="progress" aria-hidden="true"><i id="prog"></i></div>
+</section>
+
+<div class="now" id="now"><span class="dot"></span><span id="now-text">Edie appears when the conversation starts.</span></div>
+
+<h3>Conversation</h3>
+<div class="log" id="log" aria-live="polite"></div>
+
+<div class="shead"><h3>Suggestions <span class="badge" id="count">0</span></h3><span class="acts"><button id="sweep" class="link" title="The agent suggests every field that is still empty">Suggest the rest</button><button id="acceptall" class="link strong" title="Fill every suggestion now. Nothing is submitted.">Accept all</button></span></div>
+<ul class="sugg" id="sugg"></ul>
+<p class="empty" id="empty">Suggestions show up here and on the form. Nothing is filled until you accept.</p>
+
+<footer>
+  <div class="status" id="status"></div>
+  <div class="local">Runs on this machine. Nothing is filled until you accept.</div>
+</footer>
+<script src="panel.js"></script>
+</body>
+</html>

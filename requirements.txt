@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pypdf
+sentence-transformers
+huggingface-hub
+mlx-lm         # local LLM that writes the suggestions (Apple silicon)
+mlx-whisper    # local speech to text for Live mode (Apple silicon)
+playwright     # only for demo/check_demo.py and demo/record_demo.py

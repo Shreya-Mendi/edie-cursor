@@ -1,0 +1,244 @@
+{
+  "id": "gen-01",
+  "title": "New patient, right knee pain after a hike",
+  "visit": {
+    "date": "2026-10-05",
+    "weekday": "Monday",
+    "discipline": "MD"
+  },
+  "speakers": {
+    "Sam": "clinician",
+    "Dr. Lee": "clinician",
+    "Daniel": "patient"
+  },
+  "turns": [
+    {
+      "who": "Sam",
+      "text": "Hi Daniel, I'm Sam, I'll get you checked in. What brings you in today?",
+      "route": [
+        "CC"
+      ]
+    },
+    {
+      "who": "Daniel",
+      "text": "My right knee hurts. It's been bugging me since a hike two weekends ago."
+    },
+    {
+      "who": "Sam",
+      "text": "Sorry to hear that. When exactly did it start?",
+      "route": [
+        "ONSET"
+      ]
+    },
+    {
+      "who": "Daniel",
+      "text": "About two weeks ago, coming down a steep trail."
+    },
+    {
+      "who": "Sam",
+      "text": "On a scale of zero to ten, how bad is the pain right now?",
+      "route": [
+        "PAIN"
+      ]
+    },
+    {
+      "who": "Daniel",
+      "text": "Right now it's about a four."
+    },
+    {
+      "who": "Sam",
+      "text": "Let me get your vitals. Your blood pressure is one thirty-eight over eighty-six.",
+      "route": [
+        "BP_SYS",
+        "BP_DIA"
+      ]
+    },
+    {
+      "who": "Daniel",
+      "text": "Is that high?"
+    },
+    {
+      "who": "Sam",
+      "text": "A little. Your pulse is seventy-eight, temperature ninety-eight point four, and your oxygen is ninety-eight percent.",
+      "route": [
+        "HR",
+        "TEMP",
+        "SPO2"
+      ]
+    },
+    {
+      "who": "Sam",
+      "text": "Your weight is two twelve point six pounds. And how tall are you?",
+      "route": [
+        "WT",
+        "HT"
+      ]
+    },
+    {
+      "who": "Daniel",
+      "text": "Five foot ten."
+    },
+    {
+      "who": "Sam",
+      "text": "Do you have any allergies to medications?",
+      "route": [
+        "ALLERGY_STATUS",
+        "ALLERGENS"
+      ]
+    },
+    {
+      "who": "Daniel",
+      "text": "No, no allergies that I know of."
+    },
+    {
+      "who": "Sam",
+      "text": "What medications do you take?",
+      "route": [
+        "MED1",
+        "DOSE1",
+        "FREQ1"
+      ]
+    },
+    {
+      "who": "Daniel",
+      "text": "Just one. Lisinopril, ten milligrams, once a day."
+    },
+    {
+      "who": "Sam",
+      "text": "Any medical conditions we should know about?",
+      "route": [
+        "PMH"
+      ]
+    },
+    {
+      "who": "Daniel",
+      "text": "Just high blood pressure."
+    },
+    {
+      "who": "Sam",
+      "text": "Have you had any surgeries?",
+      "route": [
+        "SURG_ANY",
+        "SURG1"
+      ]
+    },
+    {
+      "who": "Daniel",
+      "text": "I had my appendix out in 2010."
+    },
+    {
+      "who": "Sam",
+      "text": "Do you smoke?",
+      "route": [
+        "TOBACCO"
+      ]
+    },
+    {
+      "who": "Daniel",
+      "text": "I used to smoke, but I quit about five years ago."
+    },
+    {
+      "who": "Sam",
+      "text": "Do you drink alcohol? How many drinks a week?",
+      "route": [
+        "ALCOHOL_ANY",
+        "DRINKS_WK"
+      ]
+    },
+    {
+      "who": "Daniel",
+      "text": "Yes, about two beers a week."
+    },
+    {
+      "who": "Sam",
+      "text": "And how often do you exercise?",
+      "route": [
+        "EXERCISE"
+      ]
+    },
+    {
+      "who": "Daniel",
+      "text": "I hike or bike three or four days a week."
+    },
+    {
+      "who": "Sam",
+      "text": "Did you get a flu shot this season?",
+      "route": [
+        "FLU"
+      ]
+    },
+    {
+      "who": "Daniel",
+      "text": "Yes, I got it in September."
+    },
+    {
+      "who": "Dr. Lee",
+      "text": "Hi Daniel, I'm Dr. Lee. Any fever, chest pain, trouble breathing, cough, headaches, dizziness, or nausea?",
+      "route": [
+        "ROS"
+      ]
+    },
+    {
+      "who": "Daniel",
+      "text": "No, none of that. Just the knee."
+    },
+    {
+      "who": "Dr. Lee",
+      "text": "Okay. Let's take a look at it.",
+      "route": []
+    }
+  ],
+  "gold": {
+    "CC": [
+      "JOINT"
+    ],
+    "ONSET": "W1_4",
+    "PAIN": "4",
+    "BP_SYS": 138,
+    "BP_DIA": 86,
+    "HR": 78,
+    "TEMP": 98.4,
+    "SPO2": 98,
+    "WT": 212.6,
+    "HT": 70,
+    "ALLERGY_STATUS": "N",
+    "MED1": {
+      "keywords": [
+        [
+          "lisinopril"
+        ]
+      ]
+    },
+    "DOSE1": {
+      "keywords": [
+        [
+          "10",
+          "ten"
+        ]
+      ]
+    },
+    "FREQ1": "QD",
+    "PMH": [
+      "HTN"
+    ],
+    "SURG_ANY": "Y",
+    "SURG1": {
+      "keywords": [
+        [
+          "appendix",
+          "appendectomy"
+        ]
+      ]
+    },
+    "SURG1_YEAR": 2010,
+    "TOBACCO": "FORMER",
+    "ALCOHOL_ANY": "Y",
+    "DRINKS_WK": 2,
+    "EXERCISE": "C",
+    "ROS": [
+      "NONE"
+    ],
+    "FLU": "THIS"
+  },
+  "notes": "Demo visit: every answer is said plainly once. Must stay empty: ALLERGENS and REACTION (no known allergies; the form skips them). Checks: blood pressure said as one phrase; weight 'two twelve point six'; height 'five foot ten' is 70 inches; quit five years ago is Former."
+}

@@ -1,0 +1,1924 @@
+=== PAGE 1 ===
+OASIS-E2 All Items Effective 04/01/2026        Page 1 of 36
+Centers for Medicare & Medicaid Services
+PRA Disclosure Statement 
+According to the Paperwork Reduction Act of 1995, no persons are required to respond to a collection of 
+information unless it displays a valid OMB control number. The valid OMB control number for this information 
+collection is XXXX-XXXX. The expiration date is XX/XX/XXXX, The time required to complete this information 
+collection is estimated to be XX minutes per data element, including the time to review instructions, search 
+existing data resources, gather the data needed, and complete and review the information collection. This 
+estimate does not include time for training. If you have comments concerning the accuracy of the time 
+estimate(s) or suggestions for improving this form, please write to: CMS, 7500 Security Boulevard, Attn: PRA 
+Reports Clearance Officer, Mail Stop C4-26-05, Baltimore, Maryland 21244-1850. 
+*****CMS Disclaimer*****Please do not send applications, claims, payments, medical records or any 
+documents containing sensitive information to the PRA Reports Clearance Office. Please note that any 
+correspondence not pertaining to the information collection burden approved under the associated OMB 
+control number listed on this form will not be reviewed, forwarded, or retained. If you have questions or 
+concerns regarding where to submit your documents, please contact XXXXXXXX National Coordinator, Home 
+Health Quality Reporting Program Centers for Medicare & Medicaid Services.
+
+=== PAGE 2 ===
+OASIS-E2 All Items Effective 04/01/2026        Page 2 of 36
+Centers for Medicare & Medicaid Services
+OUTCOME AND ASSESSMENT INFORMATION SET VERSION E2
+All Items
+Skip language in each item refers to the item sequence as it appears in the time point versions of the 
+instrument.
+Section A Administrative Information
+M0018. National Provider Identifier (NPI) for the attending physician who has signed the plan of care
+                  
+    UK  — Unknown or Not Available
+M0010. CMS Certification Number
+                      
+M0014. Branch State
+                
+M0016. Branch ID Number
+                
+M0020. Patient ID Number
+       
+M0030. Start of Care Date
+ 
+  — 
+  — 
+ Month          Day            Year
+M0032. Resumption of Care Date
+ 
+ — 
+  — 
+                     
+    NA  — Not Applicable
+     Month          Day             Year
+M0040. Patient Name
+              
+              
+                 
+                       (First)                                      (MI)                                                        (Last)                                                       (Suffix)
+M0050. Patient State of Residence
+                
+M0060. Patient ZIP Code
+       - 
+M0064. Social Security Number
+      - 
+       - 
+                   
+    UK  — Unknown or Not Available
+M0063. Medicare Number
+               
+    NA  — No Medicare
+
+=== PAGE 3 ===
+OASIS-E2 All Items Effective 04/01/2026        Page 3 of 36
+Centers for Medicare & Medicaid Services
+M0065. Medicaid Number
+             
+    NA  — No Medicaid
+A0810. Sex
+Enter Code 
+ 
+1. Male
+2. Female
+M0066. Birth Date
+ — 
+  — 
+ Month          Day            Year
+A1005. Ethnicity
+Are you of Hispanic, Latino/a, or Spanish origin?
+  ↓          Check all that apply
+A. No, not of Hispanic, Latino/a, or Spanish origin
+B. Yes, Mexican, Mexican American, Chicano/a
+C. Yes, Puerto Rican
+D. Yes, Cuban
+E. Yes, another Hispanic, Latino, or Spanish origin
+X. Patient unable to respond
+Y. Patient declines to respond
+A1010. Race
+What is your race?
+  ↓           Check all that apply
+A. White
+B. Black or African American
+C. American Indian or Alaska Native
+D. Asian Indian
+E. Chinese
+F. Filipino
+G. Japanese
+H. Korean
+I. Vietnamese
+J. Other Asian
+K. Native Hawaiian
+L. Guamanian or Chamorro
+M. Samoan
+N. Other Pacific Islander
+X.     Patient unable to respond
+Y. Patient declines to respond
+Z. None of the above
+
+=== PAGE 4 ===
+OASIS-E2 All Items Effective 04/01/2026        Page 4 of 36
+Centers for Medicare & Medicaid Services
+M0150. Current Payment Sources for Home Care
+  ↓          Check all that apply
+0. None; no charge for current services
+1. Medicare (traditional fee-for-service)
+2. Medicare (HMO/managed care/Advantage plan)
+3. Medicaid (traditional fee-for-service)
+4. Medicaid (HMO/managed care)
+5. Worker’s compensation
+6. Title programs (for example, Title III, V, or XX)
+7. Other government (for example, TriCare, VA)
+8. Private insurance
+9. Private HMO/managed care
+10. Self-pay
+11. Other (specify)
+UK. Unknown
+A1110. Language 
+Enter Code 
+ 
+A. What is your preferred language?
+           
+B. Do you need or want an interpreter to communicate with a doctor or health care staff?
+0. No
+1. Yes
+9. Unable to determine
+M0080. Discipline of Person Completing Assessment
+Enter 
+Code 
+ 
+1. RN
+2. PT
+3. SLP/ST
+4. OT
+M0090. Date Assessment Completed
+ 
+ — 
+  — 
+ Month          Day            Year
+M0100. This Assessment is Currently Being Completed for the Following Reason
+Enter 
+Code 
+ 
+Start/Resumption of Care
+1. Start of care — further visits planned
+3. Resumption of Care (after inpatient stay)
+Follow-up
+4. Recertification (follow-up) reassessment
+5. Other follow-up
+Transfer to an Inpatient Facility
+6. Transferred to an inpatient facility — patient not discharged from agency
+7. Transferred to an inpatient facility — patient discharged from agency
+Discharge from Agency — Not to an Inpatient Facility
+8. Death at home
+9. Discharge from agency
+
+=== PAGE 5 ===
+OASIS-E2 All Items Effective 04/01/2026        Page 5 of 36
+Centers for Medicare & Medicaid Services
+M0906. Discharge/Transfer/Death Date
+Enter the date of the discharge, transfer, or death (at home) of the patient.
+ — 
+  — 
+ Month          Day            Year
+M0102. Date of Physician-ordered Start of Care (Resumption of Care)
+If the physician indicated a specific start of care (resumption of care) date when the patient was referred for home health services, 
+record the date specified.
+ — 
+  — 
+      →  Skip to A1255, Transportation, if date entered
+ 
+Month          Day            Year
+   NA  — No specific SOC/ROC date ordered by physician
+M0104. Date of Referral
+Indicate the date that the written or verbal referral for initiation or resumption of care was received by the HHA.
+ — 
+  — 
+ Month          Day            Year
+A1255. Transportation (NACHC©)
+Enter Code 
+ 
+In the past 12 months, has lack of reliable transportation kept you from medical appointments, meetings, work or 
+from getting things needed for daily living?
+0. Yes
+1. No
+7. Patient declines to respond
+8. Patient unable to respond
+Adapted from: NACHC© 2019. National Association of Community Health Centers, Inc., Association of Asian Pacific Community Adapted from: NACHC© 2019. National Association of Community Health Centers, Inc., Association of Asian Pacific Community 
+Health Organizations, Oregon Primary Care Association. PRAPARE and its resources are proprietary information of NACHC and its Health Organizations, Oregon Primary Care Association. PRAPARE and its resources are proprietary information of NACHC and its 
+partners, intended for use by NACHC, its partners, and authorized recipients. Do not publish, copy, or distribute this information in partners, intended for use by NACHC, its partners, and authorized recipients. Do not publish, copy, or distribute this information in 
+part or whole without written consent from NACHC. part or whole without written consent from NACHC. 
+M1000. From which of the following Inpatient Facilities was the patient discharged within the past 14 days?
+     ↓            Check all that apply
+1. Long-term nursing facility (NF)
+2. Skilled nursing facility (SNF/TCU)
+3. Short-stay acute hospital (IPPS)
+4. Long-term care hospital (LTCH)
+5. Inpatient rehabilitation hospital or unit (IRF)
+6. Psychiatric hospital or unit
+7.  Other (specify)
+NA  Patient was not discharged from an inpatient facility → Skip to B0200, Hearing at SOC,ROC
+M1005. Inpatient Discharge Date (most recent)
+ — 
+  — 
+                     
+    UK — Unknown or Not Available
+     Month          Day             Year
+
+=== PAGE 6 ===
+OASIS-E2 All Items Effective 04/01/2026        Page 6 of 36
+Centers for Medicare & Medicaid Services
+M2301. Emergent Care
+At the time of or at any time since the most recent SOC/ROC assessment has the patient utilized a hospital emergency department 
+(includes holding/observation status)?
+Enter Code 
+ 
+0. No  →  Skip to M2410, Inpatient Facility
+1. Yes, used hospital emergency department WITHOUT hospital admission
+2. Yes, used hospital emergency department WITH hospital admission
+UK Unknown  →  Skip to M2410, Inpatient Facility
+M2310. Reason for Emergent Care
+For what reason(s) did the patient seek and/or receive emergent care (with or without hospitalization)?
+     ↓            Check all that apply
+1. Improper medication administration, adverse drug reactions, medication side effects, toxicity, anaphylaxis
+10. Hypo/Hyperglycemia, diabetes out of control
+19. Other than above reasons
+UK   Reason unknown
+M2410. To which Inpatient Facility has the patient been admitted?
+Enter 
+Code 
+ 
+1. Hospital
+2. Rehabilitation facility
+3. Nursing home
+4. Hospice
+NA No inpatient facility admission [Omit “NA” option on TRN]
+M2420. Discharge Disposition
+Where is the patient after discharge from your agency? (Choose only one answer.)
+Enter 
+Code 
+ 
+1. Patient remained in the community (without skilled services from a Medicare Certified HHA or non-institutional 
+hospice) →  Skip to A2123, Provision of Current Reconciled Medication List to Patient at Discharge
+2. Patient remained in the community (with skilled services from a Medicare Certified HHA) → Continue to A2121, 
+Provision of Current Reconciled Medication List to Subsequent Provider at Discharge
+3. Patient transferred to a non-institutional hospice → Continue to A2121, Provision of Current Reconciled Medica-
+tion List to Subsequent Provider at Discharge
+4. Unknown because patient moved to a geographic location not served by this agency → Skip to A2123, Provision 
+of Current Reconciled Medication List to Patient at Discharge
+UK Other unknown → Skip to A2123, Provision of Current Reconciled Medication List to Patient at Discharge
+A2120. Provision of Current Reconciled Medication List to Subsequent Provider at Transfer
+At the time of transfer to another provider, did your agency provide the patient’s current reconciled medication list to the subse-
+quent provider?
+Enter 
+Code 
+ 
+0. No   — Current reconciled medication list not provided to the subsequent provider →  Skip to J1800, Any Falls 
+Since SOC/ROC
+1. Yes — Current reconciled medication list provided to the subsequent provider→  Continue to A2122, Route of 
+Current Reconciled Medication List Transmission to Subsequent Provider
+2. NA — The agency was not made aware of this transfer timely →  Skip to J1800, Any Falls Since SOC/ROC
+A2121. Provision of Current Reconciled Medication List to Subsequent Provider at Discharge
+At the time of discharge to another provider, did your agency provide the patient’s current reconciled medication list to the subse-
+quent provider?
+Enter 
+Code 
+ 
+0. No   — Current reconciled medication list not provided to the subsequent provider → Skip to B1300, Health Literacy
+1. Yes — Current reconciled medication list provided to the subsequent provider → Continue to A2122, Route of 
+Current Reconciled Medication List Transmission to Subsequent Provider
+
+=== PAGE 7 ===
+OASIS-E2 All Items Effective 04/01/2026        Page 7 of 36
+Centers for Medicare & Medicaid Services
+A2122. Route of Current Reconciled Medication List Transmission to Subsequent Provider
+Indicate the route(s) of transmission of the current reconciled medication list to the subsequent provider.
+Route of Transmission
+ ↓            Check all that apply            ↓
+A. Electronic Health Record
+B. Health Information Exchange
+C. Verbal (e.g., in-person, telephone, video conferencing)
+D. Paper-based (e.g., fax, copies, printouts)
+E. Other Methods (e.g., texting, email, CDs)
+After completing A2122, Skip to B1300, Health Literacy at Discharge
+A2123. Provision of Current Reconciled Medication List to Patient at Discharge
+At the time of discharge, did your agency provide the patient’s current reconciled medication list to the patient, family, and/or 
+caregiver?
+Enter Code 
+ 
+0. No   — Current reconciled medication list not provided to the patient, family, and/or caregiver →  Skip to 
+B1300, Health Literacy
+1. Yes — Current reconciled medication list provided to the patient, family, and/or caregiver →  Continue to 
+A2124, Route of Current Reconciled Medication List Transmission to Patient
+A2124. Route of Current Reconciled Medication List Transmission to Patient
+Indicate the route(s) of transmission of the current reconciled medication list to the patient, family, and/or caregiver.
+Route of Transmission
+ ↓            Check all that apply            ↓
+A. Electronic Health Record
+B. Health Information Exchange
+C. Verbal (e.g., in-person, telephone, video conferencing)
+D. Paper-based (e.g., fax, copies, printouts)
+E. Other Methods (e.g., texting, email, CDs)
+Section B Hearing, Speech, and Vision
+B0200. Hearing
+Enter Code 
+ 
+Ability to hear (with hearing aid or hearing appliances if normally used)
+0. Adequate – no difficulty in normal conversation, social interaction, listening to TV
+1. Minimal difficulty – difficulty in some environments (e.g., when person speaks softly, or setting is noisy)
+2. Moderate difficulty – speaker has to increase volume and speak distinctly
+3. Highly impaired – absence of useful hearing
+B1000. Vision
+Enter Code 
+ 
+Ability to see in adequate light (with glasses or other visual appliances)
+0. Adequate – sees fine detail, such as regular print in newspapers/books
+1. Impaired – sees large print, but not regular print in newspapers/books
+2. Moderately impaired – limited vision; not able to see newspaper headlines but can identify objects
+3. Highly impaired – object identification in question, but eyes appear to follow objects
+4. Severely impaired – no vision or sees only light, colors, or shapes; eyes do not appear to follow objects
+  
+
+=== PAGE 8 ===
+OASIS-E2 All Items Effective 04/01/2026        Page 8 of 36
+Centers for Medicare & Medicaid Services
+B1300. Health Literacy (From Creative Commons ©)
+How often do you need to have someone help you when you read instructions, pamphlets, or other written material from your 
+doctor or pharmacy?
+Enter Code 
+ 
+0. Never
+1. Rarely
+2. Sometimes
+3. Often
+4. Always
+7. Patient declines to respond
+8. Patient unable to respond
+The Single Item Literacy Screener is licensed under a Creative Commons Attribution Noncommercial 4.0 International License.The Single Item Literacy Screener is licensed under a Creative Commons Attribution Noncommercial 4.0 International License.
+Section C Cognitive Patterns
+C0100. Should Brief Interview for Mental Status (C0200-C0500) be Conducted?
+Attempt to conduct interview with all patients.
+Enter Code 
+ 
+0. No   (patient is rarely/never understood) →  Skip to C1310, Signs and Symptoms of Delirium (from CAM ©)
+1. Yes →  Continue to C0200, Repetition of Three Words
+Brief Interview for Mental Status (BIMS)
+C0200. Repetition of Three Words
+Enter Code 
+ 
+Ask patient: “I am going to say three words for you to remember. Please repeat the words after I have said all 
+three. The words are: sock, blue, and bed. Now tell me the three words.”
+Number of words repeated after first attempt:
+0. None
+1. One
+2. Two
+3. Three
+After the patient’s first attempt, repeat the words using cues (“sock, something to wear; blue, a color; bed, a 
+piece of furniture”). You may repeat the words up to two more times.
+C0300. Temporal Orientation (Orientation to year, month, and day)
+Enter Code 
+ 
+Ask patient: “Please tell me what year it is right now.”
+A. Able to report correct year
+0. Missed by > 5 years or no answer
+1. Missed by 2-5 years
+2. Missed by 1 year
+3. Correct
+Enter Code 
+ 
+Ask patient: “What month are we in right now?”
+B. Able to report correct month
+0. Missed by > 1 month or no answer
+1. Missed by 6 days to 1 month 
+2. Accurate within 5 days
+Enter Code 
+ 
+Ask patient: “What day of the week is today?”
+C. Able to report correct day of the week
+0. Incorrect or no answer
+1. Correct
+
+=== PAGE 9 ===
+OASIS-E2 All Items Effective 04/01/2026        Page 9 of 36
+Centers for Medicare & Medicaid Services
+C0400. Recall
+Enter Code 
+ 
+Ask patient: “Let’s go back to an earlier question. What were those three words that I asked you to repeat?”
+If unable to remember a word, give cue (something to wear; a color; a piece of furniture) for that word.
+A. Able to recall “sock”
+0. No — could not recall
+1. Yes, after cueing (“something to wear”)
+2. Yes, no cue required 
+Enter Code 
+ 
+B. Able to recall “blue”
+0. No — could not recall
+1. Yes, after cueing (“a color”)
+2. Yes, no cue required 
+Enter Code 
+ 
+C. Able to recall “bed”
+0. No — could not recall
+1. Yes, after cueing (“a piece of furniture”)
+2. Yes, no cue required 
+C0500. BIMS Summary Score
+Enter Code
+Add scores for questions C0200-C0400 and fill in total score (00-15)
+Enter 99 if the patient was unable to complete the interview
+C1310. Signs and Symptoms of Delirium (from CAM©)
+Code after completing Brief Interview for Mental Status and reviewing medical record.
+A.    Acute Onset of Mental Status Change
+Enter Code 
+ 
+Is there evidence of an acute change in mental status from the patient’s baseline?
+0. No
+1. Yes
+Coding
+0. Behavior not present
+1. Behavior continuously       
+present, does not fluctuate
+2. Behavior present, fluctuates 
+(comes and goes, changes in 
+severity)
+     ↓     Enter codes in boxes
+B. Inattention – Did the patient have difficulty focusing attention, for 
+example, being easily distractible or having difficulty keeping track 
+of what was being said?
+C. Disorganized thinking – Was the patient’s thinking disorganized or 
+incoherent (rambling or irrelevant conversation, unclear or illogical 
+flow of ideas, or unpredictable switching from subject to subject)?
+D. Altered level of consciousness — Did the patient have altered level 
+of consciousness, as indicated by any of the following criteria?
+• vigilant — startled easily to any sound or touch
+• lethargic — repeatedly dozed off when being asked questions, 
+but responded to voice or touch
+• stuporous — very difficult to arouse and keep aroused for the 
+interview
+• comatose — could not be aroused
+Adapted from: Inouye SK, et al. Ann Intern Med. 1990; 113: 941-948. Confusion Assessment Method. Copyright 2003, Hospital Elder Adapted from: Inouye SK, et al. Ann Intern Med. 1990; 113: 941-948. Confusion Assessment Method. Copyright 2003, Hospital Elder 
+Life Program, LLC. Not to be reproduced without permission.Life Program, LLC. Not to be reproduced without permission.
+
+=== PAGE 10 ===
+OASIS-E2 All Items Effective 04/01/2026        Page 10 of 36
+Centers for Medicare & Medicaid Services
+M1700. Cognitive Functioning
+Patient’s current (day of assessment) level of alertness, orientation, comprehension, concentration, and immediate memory for 
+simple commands.
+Enter Code 
+ 
+0. Alert/oriented, able to focus and shift attention, comprehends and recalls task directions independently.
+1. Requires prompting (cueing, repetition, reminders) only under stressful or unfamiliar conditions.
+2. Requires assistance and some direction in specific situations (for example, on all tasks involving shifting of 
+attention) or consistently requires low stimulus environment due to distractibility.
+3. Requires considerable assistance in routine situations. Is not alert and oriented or is unable to shift 
+attention and recall directions more than half the time.
+4. Totally dependent due to disturbances such as constant disorientation, coma, persistent vegetative state, 
+or delirium.
+M1710. When Confused
+(Reported or Observed Within the Last 14 Days):
+Enter Code 
+ 
+0. Never
+1. In new or complex situations only
+2. On awakening or at night only
+3. During the day and evening, but not constantly
+4. Constantly
+NA Patient nonresponsive
+M1720. When Anxious
+(Reported or Observed Within the Last 14 Days):
+Enter Code 
+ 
+0. None of the time
+1. Less than often daily
+2. Daily, but not constantly
+3. All of the time
+NA Patient nonresponsive
+
+=== PAGE 11 ===
+OASIS-E2 All Items Effective 04/01/2026        Page 11 of 36
+Centers for Medicare & Medicaid Services
+Section D Mood
+D0150. Patient Mood Interview (PHQ-2 to 9)
+Determine if the patient is rarely/never understood verbally, in writing, or using another method. If rarely/never understood, code 
+D0150A1 and  D0150B1 as 9, No response, leave D0150A2 and D0150B2 blank, end the PHQ-2 interview, and leave D0160, Total 
+Severity Score blank. Otherwise, say to patient: “Over the last 2 weeks, have you been bothered by any of the following 
+problems?”
+If symptom is present, enter 1 (yes) in column 1, Symptom Presence. 
+If yes in column 1, then ask the patient: “About how often have you been bothered by this?” 
+Read and show the patient a card with the symptom frequency choices. Indicate response in column 2, Symptom Frequency. 
+1. Symptom Presence
+0. No (enter 0 in column 2)
+1. Yes (enter 0-3 in column 2)
+9. No response (leave column 
+2 blank)
+2. Symptom Frequency
+0. Never or 1 day
+1. 2-6 days (several days)
+2. 7-11 days (half or more of the days)
+3. 12-14 days (nearly every day)
+1. 
+Symptom 
+Presence
+2.  
+Symptom 
+Frequency
+↓Enter Scores in Boxes↓
+A.  Little interest or pleasure in doing things
+B.  Feeling down, depressed, or hopeless
+If both D0150A1 and D0150B1 are coded 9, OR both D0150A2 and D0150B2 are coded 0 or 1, END the PHQ interview; otherwise, 
+continue.
+C.  Trouble falling or staying asleep, or sleeping too much
+D.  Feeling tired or having little energy
+E.  Poor appetite or overeating
+F.  Feeling bad about yourself — or that you are a failure or have let yourself or your family down
+G.  Trouble concentrating on things, such as reading the newspaper or watching television
+H.  Moving or speaking so slowly that the other people could have noticed. Or the opposite —    
+being so fidgety or restless that you have been moving around a lot more than usual
+I.  Thoughts that you would be better off dead, or of hurting yourself in some way
+Copyright © Pfizer Inc. All rights reserved. Reproduced with permission.Copyright © Pfizer Inc. All rights reserved. Reproduced with permission.
+D0160. Total Severity Score
+Enter Score Add scores for all frequency responses in Column 2, Symptom Frequency. Total score must be between 00 and 27. 
+Enter 99 if unable to complete interview (i.e., Symptom Frequency is blank for 3 or more required items)
+D0700. Social Isolation
+How often do you feel lonely or isolated from those around you?
+Enter Code 
+ 
+0. Never
+1. Rarely
+2. Sometimes
+3. Often
+4. Always
+7. Patient declines to respond
+8. Patient unable to respond
+
+=== PAGE 12 ===
+OASIS-E2 All Items Effective 04/01/2026        Page 12 of 36
+Centers for Medicare & Medicaid Services
+Section E Behavior
+M1740. Cognitive, Behavioral, and Psychiatric Symptoms that are demonstrated at least once a week (Reported or Observed):
+     ↓            Check all that apply
+1. Memory deficit: failure to recognize familiar persons/places, inability to recall events of past 24 hours,            
+significant memory loss so that supervision is required
+2. Impaired decision-making: failure to perform usual ADLs or IADLs, inability to appropriately stop activities, 
+jeopardizes safety through actions
+3. Verbal disruption: yelling, threatening, excessive profanity, sexual references, etc.
+4. Physical aggression: aggressive or combative to self and others (for example, hits self, throws objects, punches, 
+dangerous maneuvers with wheelchair or other objects)
+5. Disruptive, infantile, or socially inappropriate behavior (excludes verbal actions)
+6. Delusional, hallucinatory, or paranoid behavior
+7. None of the above behaviors demonstrated
+M1745. Frequency of Disruptive Behavior Symptoms (Reported or Observed):
+Any physical, verbal, or other disruptive/dangerous symptoms that are injurious to self or others or jeopardize personal safety.
+Enter Code 
+ 
+0. Never
+1. Less than once a month
+2. Once a month
+3. Several times each month
+4. Several times a week
+5. At least daily
+Section F Preferences for Customary Routine and Activities
+M1100. Patient Living Situation
+Which of the following best describes the patient’s residential circumstance and availability of assistance?
+Living Arrangement
+Availability of Assistance
+Around the 
+Clock
+Regular 
+Daytime
+Regular Night-
+time
+Occasional/
+Short-Term 
+Assistance
+No Assistance 
+Available
+ ↓            Check one box only           ↓
+A. Patient lives alone
+ 01
+  02
+  03
+  04
+  05
+B. Patient lives with other     
+person(s) in the home
+  06
+  07
+  08
+  09
+  10
+C. Patient lives in congregate 
+situation (for example,        
+assisted living, residential 
+care home)
+ 11
+  12
+  13
+  14
+  15
+
+=== PAGE 13 ===
+OASIS-E2 All Items Effective 04/01/2026        Page 13 of 36
+Centers for Medicare & Medicaid Services
+SOC/ROC
+M2102. Types and Sources of Assistance
+Determine the ability and willingness of non-agency caregivers (such as family members, friends, or privately paid caregivers) to 
+provide assistance for the following activities, if assistance is needed. Excludes all care by your agency staff.
+Enter Code 
+ 
+f. Supervision and safety (due to cognitive impairment)
+0. No assistance needed — patient is independent or does not have needs in this area
+1. Non-agency caregiver(s) currently provide assistance
+2. Non-agency caregiver(s) need training/supportive services to provide assistance
+3. Non-agency caregiver(s) are not likely to provide assistance OR it is unclear if they will provide 
+assistance
+4. Assistance needed, but no non-agency caregiver(s) available
+Discharge
+M2102. Types and Sources of Assistance
+Determine the ability and willingness of non-agency caregivers (such as family members, friends, or privately paid caregivers) to 
+provide assistance for the following activities, if assistance is needed. Excludes all care by your agency staff.
+Enter Code 
+ 
+a. ADL assistance (for example, transfer/ambulation, bathing, dressing, toileting, eating/feeding)
+0. No assistance needed — patient is independent or does not have needs in this area
+1. Non-agency caregiver(s) currently provide assistance
+2. Non-agency caregiver(s) need training/supportive services to provide assistance
+3. Non-agency caregiver(s) are not likely to provide assistance OR it is unclear if they will provide 
+assistance
+4. Assistance needed, but no non-agency caregiver(s) available
+Enter Code 
+ 
+c. Medication administration (for example, oral, inhaled, or injectable)
+0. No assistance needed — patient is independent or does not have needs in this area
+1. Non-agency caregiver(s) currently provide assistance
+2. Non-agency caregiver(s) need training/supportive services to provide assistance
+3. Non-agency caregiver(s) are not likely to provide assistance OR it is unclear if they will provide 
+assistance
+4. Assistance needed, but no non-agency caregiver(s) available
+Enter Code 
+ 
+d. Medical procedures/treatments (for example, changing wound dressing, home exercise program)
+0. No assistance needed — patient is independent or does not have needs in this area
+1. Non-agency caregiver(s) currently provide assistance
+2. Non-agency caregiver(s) need training/supportive services to provide assistance
+3. Non-agency caregiver(s) are not likely to provide assistance OR it is unclear if they will provide 
+assistance
+4. Assistance needed, but no non-agency caregiver(s) available
+Enter Code 
+ 
+f. Supervision and safety (due to cognitive impairment)
+0. No assistance needed — patient is independent or does not have needs in this area
+1. Non-agency caregiver(s) currently provide assistance
+2. Non-agency caregiver(s) need training/supportive services to provide assistance
+3. Non-agency caregiver(s) are not likely to provide assistance OR it is unclear if they will provide 
+assistance
+4. Assistance needed, but no non-agency caregiver(s) available
+Section G Functional Status
+M1800. Grooming
+Current ability to tend safely to personal hygiene needs (specifically: washing face and hands, hair care, shaving or make up, teeth 
+or denture care, or fingernail care).
+Enter Code 
+ 
+0. Able to groom self unaided, with or without the use of assistive devices or adapted methods.
+1. Grooming utensils must be placed within reach before able to complete grooming activities.
+2. Someone must assist the patient to groom self.
+3. Patient depends entirely upon someone else for grooming needs.
+
+=== PAGE 14 ===
+OASIS-E2 All Items Effective 04/01/2026        Page 14 of 36
+Centers for Medicare & Medicaid Services
+M1810. Current Ability to Dress Upper Body safely (with or without dressing aids) including undergarments, pullovers,  
+front-opening shirts and blouses, managing zippers, buttons, and snaps.
+Enter Code 
+ 
+0. Able to get clothes out of closets and drawers, put them on and remove them from the upper body 
+without assistance.
+1. Able to dress upper body without assistance if clothing is laid out or handed to the patient.
+2. Someone must help the patient put on upper body clothing.
+3. Patient depends entirely upon another person to dress the upper body.
+M1820. Current Ability to Dress Lower Body safely (with or without dressing aids) including undergarments, slacks, socks or        
+nylons, shoes.
+Enter Code 
+ 
+0. Able to obtain, put on, and remove clothing and shoes without assistance.
+1. Able to dress lower body without assistance if clothing and shoes are laid out or handed to the patient.
+2. Someone must help the patient put on undergarments, slacks, socks or nylons, and shoes.
+3. Patient depends entirely upon another person to dress lower body.
+M1830. Bathing
+Current ability to wash entire body safely. Excludes grooming (washing face, washing hands, and shampooing hair).
+Enter Code 
+ 
+0. Able to bathe self in shower or tub independently, including getting in and out of tub/shower.
+1. With the use of devices, is able to bathe self in shower or tub independently, including getting in and out 
+of the tub/shower.
+2. Able to bathe in shower or tub with the intermittent assistance of another person:
+a. for intermittent supervision or encouragement or reminders, OR
+b. to get in and out of the shower or tub, OR
+c. for washing difficult to reach areas.
+3. Able to participate in bathing self in shower or tub, but requires presence of another person throughout 
+the bath for assistance or supervision.
+4. Unable to use the shower or tub, but able to bathe self independently with or without the use of devices 
+at the sink, in chair, or on commode.
+5. Unable to use the shower or tub, but able to participate in bathing self in bed, at the sink, in bedside 
+chair, or on commode, with the assistance or supervision of another person.
+6. Unable to participate effectively in bathing and is bathed totally by another person.
+M1840. Toilet Transferring 
+Current ability to get to and from the toilet or bedside commode safely and transfer on and off toilet/commode.
+Enter Code 
+ 
+0. Able to get to and from the toilet and transfer independently with or without a device.
+1. When reminded, assisted, or supervised by another person, able to get to and from the toilet and transfer.
+2. Unable to get to and from the toilet but is able to use a bedside commode (with or without assistance).
+3. Unable to get to and from the toilet or bedside commode but is able to use a bedpan/urinal 
+independently.
+4. Is totally dependent in toileting.
+M1845. Toileting Hygiene 
+Current ability to maintain perineal hygiene safely, adjust clothes and/or incontinence pads before and after using toilet,            
+commode, bedpan, urinal. If managing ostomy, includes cleaning area around stoma, but not managing equipment.
+Enter Code 
+ 
+0. Able to manage toileting hygiene and clothing management without assistance.
+1. Able to manage toileting hygiene and clothing management without assistance if supplies/implements 
+are laid out for the patient.
+2. Someone must help the patient to maintain toileting hygiene and/or adjust clothing.
+3. Patient depends entirely upon another person to maintain toileting hygiene.
+M1850. Transferring
+Current ability to move safely from bed to chair, or ability to turn and position self in bed if patient is bedfast.
+Enter Code 
+ 
+0. Able to independently transfer.
+1. Able to transfer with minimal human assistance or with use of an assistive device.
+2. Able to bear weight and pivot during the transfer process but unable to transfer self.
+3. Unable to transfer self and is unable to bear weight or pivot when transferred by another person.
+4. Bedfast, unable to transfer but is able to turn and position self in bed.
+5. Bedfast, unable to transfer and is unable to turn and position self.
+
+=== PAGE 15 ===
+OASIS-E2 All Items Effective 04/01/2026        Page 15 of 36
+Centers for Medicare & Medicaid Services
+M1860. Ambulation/Locomotion
+Current ability to walk safely, once in a standing position, or use a wheelchair, once in a seated position, on a variety of surfaces.
+Enter Code 
+ 
+0. Able to independently walk on even and uneven surfaces and negotiate stairs with or without railings 
+(specifically: needs no human assistance or assistive device).
+1. With the use of a one-handed device (for example, cane, single crutch, hemi-walker), able to 
+independently walk on even and uneven surfaces and negotiate stairs with or without railings.
+2. Requires use of a two-handed device (for example, walker or crutches) to walk alone on a level surface 
+and/or requires human supervision or assistance to negotiate stairs or steps or uneven surfaces.
+3. Able to walk only with the supervision or assistance of another person at all times.
+4. Chairfast, unable to ambulate but is able to wheel self independently.
+5. Chairfast, unable to ambulate and is unable to wheel self.
+6. Bedfast, unable to ambulate or be up in a chair.
+Section GG Functional Abilities
+GG0100. Prior Functioning: Everyday Activities
+Indicate the patient’s usual ability with everyday activities prior to the current illness, exacerbation, or injury.
+Coding:
+3. Independent – Patient completed all the activities by 
+themself, with or without an assistive device, with no 
+assistance from a helper.
+2. Needed Some Help – Patient needed partial assistance 
+from another person to complete any activities.
+1. Dependent – A helper completed all the activities for 
+the patient.
+8. Unknown
+9. Not Applicable
+ 
+           ↓    Enter code in boxes
+A. Self Care: Code the patient’s need 
+for assistance with bathing, dressing, 
+using the toilet, and eating prior to 
+the current illness, exacerbation, or 
+injury.
+B. Indoor Mobility (Ambulation): Code 
+the patient’s need for assistance with 
+walking from room to room (with or 
+without a device such as cane, crutch 
+or walker) prior to the current illness, 
+exacerbation, or injury.
+C. Stairs: Code the patient’s need for 
+assistance with internal or external 
+stairs (with or without a device such 
+as cane, crutch, or walker) prior to 
+the current illness, exacerbation, or 
+injury.
+D. Functional Cognition: Code the 
+patient’s need for assistance with 
+planning regular tasks, such as 
+shopping or remembering to take 
+medication prior to the 
+current illness, exacerbation, or 
+injury.
+GG0110. Prior Device Use
+Indicate devices and aids used by the patient prior to the current illness, exacerbation, or injury.
+     ↓            Check all that apply
+A. Manual wheelchair
+B. Motorized wheelchair and/or scooter
+C. Mechanical lift
+D. Walker
+E. Orthotics/prosthetics
+Z. None of the above
+
+=== PAGE 16 ===
+OASIS-E2 All Items Effective 04/01/2026        Page 16 of 36
+Centers for Medicare & Medicaid Services
+SOC/ROC
+GG0130. Self-Care
+Code the patient’s usual performance at SOC/ROC for each activity using the 6-point scale. If activity was not attempted at SOC/
+ROC, code the reason. 
+Coding: 
+Safety and Quality of Performance – If helper assistance is required because patient’s performance is unsafe or of poor quality, 
+score according to amount of assistance provided.  
+Activities may be completed with or without assistive devices.  
+06. Independent – Patient completes the activity by themself with no assistance from a helper. 
+05. Setup or clean-up assistance – Helper sets up or cleans up; patient completes activity. Helper assists only prior to or 
+following the activity.  
+04. Supervision or touching assistance – Helper provides verbal cues and/or touching/steadying and/or contact guard 
+assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently.  
+03. Partial/moderate assistance – Helper does LESS THAN HALF the effort. Helper lifts, holds or supports trunk or limbs, 
+but provides less than half the effort.  
+02. Substantial/maximal assistance – Helper does MORE THAN HALF the effort. Helper lifts or holds trunk or limbs and 
+provides more than half the effort.  
+01. Dependent – Helper does ALL of the effort. Patient does none of the effort to complete the activity. Or, the assistance 
+of 2 or more helpers is required for the patient to complete the activity. 
+If activity was not attempted, code reason: 
+07. Patient refused
+09. Not applicable – Not attempted and the patient did not perform this activity prior to the current illness, exacerbation 
+or injury. 
+10. Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)
+88. Not attempted due to medical condition or safety concerns
+1. 
+SOC/ROC 
+Performance
+ 
+ 
+Enter Codes 
+in Boxes 
+↓ 
+  
+ 
+A. Eating: The ability to use suitable utensils to bring food and/or liquid to the mouth and swallow food and/or 
+liquid once the meal is placed before the patient. 
+  
+ 
+B. Oral Hygiene: The ability to use suitable items to clean teeth. Dentures (if applicable): The ability to insert 
+and remove dentures into and from mouth, and manage denture soaking and rinsing with use of equipment. 
+  
+ 
+C. Toileting Hygiene: The ability to maintain perineal hygiene, adjust clothes before and after voiding or having a 
+bowel movement. If managing an ostomy, include wiping the opening but not managing equipment. 
+  
+ 
+E. Shower/bathe self: The ability to bathe self, including washing, rinsing, and drying self (excludes washing of 
+back and hair). Does not include transferring in/out of tub/shower.   
+  
+ 
+F. Upper body dressing: The ability to dress and undress above the waist; including fasteners, if applicable
+  
+ 
+G. Lower body dressing: The ability to dress and undress below the waist, including fasteners; does not include 
+footwear.
+  
+ 
+H. Putting on/taking off footwear: The ability to put on and take off socks and shoes or other footwear that is 
+appropriate for safe mobility; including fasteners, if applicable.
+
+=== PAGE 17 ===
+OASIS-E2 All Items Effective 04/01/2026        Page 17 of 36
+Centers for Medicare & Medicaid Services
+Follow-up
+GG0130. Self-Care
+Code the patient’s usual performance at Follow-up for each activity using the 6-point scale. If activity was not attempted at         
+Follow-up, code the reason.
+Coding: 
+Safety and Quality of Performance – If helper assistance is required because patient’s performance is unsafe or of poor quality, 
+score according to amount of assistance provided.  
+Activities may be completed with or without assistive devices.  
+06. Independent – Patient completes the activity by themself with no assistance from a helper. 
+05. Setup or clean-up assistance – Helper sets up or cleans up; patient completes activity. Helper assists only prior to or 
+following the activity.  
+04. Supervision or touching assistance – Helper provides verbal cues and/or touching/steadying and/or contact guard 
+assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently.  
+03. Partial/moderate assistance – Helper does LESS THAN HALF the effort. Helper lifts, holds or supports trunk or limbs, 
+but provides less than half the effort.  
+02. Substantial/maximal assistance – Helper does MORE THAN HALF the effort. Helper lifts or holds trunk or limbs and 
+provides more than half the effort.  
+01. Dependent – Helper does ALL of the effort. Patient does none of the effort to complete the activity. Or, the assistance 
+of 2 or more helpers is required for the patient to complete the activity. 
+If activity was not attempted, code reason: 
+07. Patient refused
+09. Not applicable – Not attempted and the patient did not perform this activity prior to the current illness, exacerbation 
+or injury. 
+10. Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)
+88. Not attempted due to medical condition or safety concerns
+4. 
+Follow-up 
+Performance
+ 
+ 
+Enter Codes in 
+Boxes 
+↓ 
+  
+ 
+A. Eating: The ability to use suitable utensils to bring food and/or liquid to the mouth and swallow food 
+and/or liquid once the meal is placed before the patient. 
+  
+ 
+B. Oral Hygiene: The ability to use suitable items to clean teeth. Dentures (if applicable): The ability to 
+insert and remove dentures into and from mouth, and manage denture soaking and rinsing with use of 
+equipment. 
+  
+ 
+C. Toileting Hygiene: The ability to maintain perineal hygiene, adjust clothes before and after voiding 
+or having a bowel movement. If managing an ostomy, include wiping the opening but not managing 
+equipment. 
+
+=== PAGE 18 ===
+OASIS-E2 All Items Effective 04/01/2026        Page 18 of 36
+Centers for Medicare & Medicaid Services
+Discharge
+GG0130. Self-Care
+Code the patient’s usual performance at Discharge for each activity using the 6-point scale. If activity was not attempted at Dis-
+charge, code the reason.
+Coding: 
+Safety and Quality of Performance – If helper assistance is required because patient’s performance is unsafe or of poor quality, 
+score according to amount of assistance provided.  
+Activities may be completed with or without assistive devices.  
+06. Independent – Patient completes the activity by themself with no assistance from a helper. 
+05. Setup or clean-up assistance – Helper sets up or cleans up; patient completes activity. Helper assists only prior to or 
+following the activity.  
+04. Supervision or touching assistance – Helper provides verbal cues and/or touching/steadying and/or contact guard 
+assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently.  
+03. Partial/moderate assistance – Helper does LESS THAN HALF the effort. Helper lifts, holds or supports trunk or limbs, 
+but provides less than half the effort.  
+02. Substantial/maximal assistance – Helper does MORE THAN HALF the effort. Helper lifts or holds trunk or limbs and 
+provides more than half the effort.  
+01. Dependent – Helper does ALL of the effort. Patient does none of the effort to complete the activity. Or, the assistance 
+of 2 or more helpers is required for the patient to complete the activity. 
+If activity was not attempted, code reason: 
+07. Patient refused
+09. Not applicable – Not attempted and the patient did not perform this activity prior to the current illness, exacerbation 
+or injury.
+10. Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)
+88. Not attempted due to medical conditions or safety concerns
+3. 
+Discharge 
+Performance
+ 
+ 
+Enter Codes in 
+Boxes 
+↓ 
+  
+ 
+A. Eating: The ability to use suitable utensils to bring food and/or liquid to the mouth and swallow food 
+and/or liquid once the meal is placed before the patient. 
+  
+ 
+B. Oral Hygiene: The ability to use suitable items to clean teeth. Dentures (if applicable): The ability to 
+insert and remove dentures into and from mouth, and manage denture soaking and rinsing with use of 
+equipment. 
+  
+ 
+C. Toileting Hygiene: The ability to maintain perineal hygiene, adjust clothes before and after voiding 
+or having a bowel movement. If managing an ostomy, include wiping the opening but not managing 
+equipment. 
+  
+ 
+E. Shower/bathe self: The ability to bathe self, including washing, rinsing, and drying self (excludes wash-
+ing of back and hair). Does not include transferring in/out of tub/shower.   
+  
+ 
+F. Upper body dressing: The ability to dress and undress above the waist; including fasteners, if applicable
+  
+ 
+G. Lower body dressing: The ability to dress and undress below the waist, including fasteners; does not 
+include footwear.
+  
+ 
+H. Putting on/taking off footwear: The ability to put on and take off socks and shoes or other footwear 
+that is appropriate for safe mobility; including fasteners, if applicable.
+
+=== PAGE 19 ===
+OASIS-E2 All Items Effective 04/01/2026        Page 19 of 36
+Centers for Medicare & Medicaid Services
+SOC/ROC
+GG0170. Mobility
+Code the patient’s usual performance at SOC/ROC for each activity using the 6-point scale. If activity was not attempted at SOC/
+ROC, code the reason. 
+Coding: 
+Safety and Quality of Performance – If helper assistance is required because patient’s performance is unsafe or of poor quality, 
+score according to amount of assistance provided.  
+Activities may be completed with or without assistive devices.  
+06. Independent – Patient completes the activity by themself with no assistance from a helper. 
+05. Setup or clean-up assistance – Helper sets up or cleans up; patient completes activity. Helper assists only prior to or 
+following the activity.  
+04. Supervision or touching assistance – Helper provides verbal cues and/or touching/steadying and/or contact guard 
+assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently.  
+03. Partial/moderate assistance – Helper does LESS THAN HALF the effort. Helper lifts, holds or supports trunk or limbs, 
+but provides less than half the effort.  
+02. Substantial/maximal assistance – Helper does MORE THAN HALF the effort. Helper lifts or holds trunk or limbs and 
+provides more than half the effort.  
+01. Dependent – Helper does ALL of the effort. Patient does none of the effort to complete the activity. Or, the assistance 
+of 2 or more helpers is required for the patient to complete the activity. 
+If activity was not attempted, code reason: 
+07. Patient refused
+09. Not applicable – Not attempted and the patient did not perform this activity prior to the current illness, exacerbation 
+or injury. 
+10. Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)
+88. Not attempted due to medical conditions or safety concerns
+1. 
+SOC/ROC 
+Performance
+Enter Codes 
+in Boxes 
+↓ 
+A. Roll left and right: The ability to roll from lying on back to left and right side, and return to lying on back on 
+the bed. 
+B. Sit to lying: The ability to move from sitting on side of bed to lying flat on the bed.
+C. Lying to sitting on side of bed: The ability to move from lying on the back to sitting on the side of the bed 
+with no back support.
+D. Sit to stand: The ability to come to a standing position from sitting in a chair, wheelchair, or on the side of the 
+bed.
+E. Chair/bed-to-chair transfer The ability to transfer to and from a bed to a chair (or wheelchair).
+F. Toilet transfer: The ability to get on and off a toilet or commode.
+G. Car transfer: The ability to transfer in and out of a car or van on the passenger side. Does not include the 
+ability to open/close door or fasten seat belt.
+I. Walk 10 feet: Once standing, the ability to walk at least 10 feet in a room, corridor, or similar space. 
+If SOC/ROC performance is coded 07, 09, 10 or 88 →  Skip to GG0170M, 1 step (curb)
+J. Walk 50 feet with two turns: Once standing, the ability to walk 50 feet and make two turns.
+K. Walk 150 feet: Once standing, the ability to walk at least 150 feet in a corridor or similar space.
+L. Walking 10 feet on uneven surfaces: The ability to walk 10 feet on uneven or sloping surfaces (indoor or 
+outdoor), such as turf or gravel.
+
+=== PAGE 20 ===
+OASIS-E2 All Items Effective 04/01/2026        Page 20 of 36
+Centers for Medicare & Medicaid Services
+SOC/ROC GG0170. Mobility — Continued
+1. 
+SOC/ROC 
+Performance
+Enter Codes 
+in Boxes 
+↓ 
+  M. 1 step (curb): The ability to go up and down a curb or up and down one step. 
+If SOC/ROC performance is coded 07, 09, 10 or 88 → Skip to GG0170P , Picking up object.
+N. 4 steps: The ability to go up and down four steps with or without a rail.  
+If SOC/ROC performance is coded 07, 09, 10 or 88 →  Skip to GG0170P , Picking up object.
+O. 12 steps: The ability to go up and down 12 steps with or without a rail.
+P. Picking up object: The ability to bend/stoop from a standing position to pick up a small object, such as a 
+spoon, from the floor.
+ 
+Q. Does patient use wheelchair and/or scooter?
+0. No →  Skip to M1600, Urinary Tract Infection
+1. Yes →  Continue to GG170R, Wheel 50 feet with two turns
+R. Wheel 50 feet with two turns: Once seated in wheelchair/scooter, the ability to wheel at least 50 feet and 
+make two turns.
+ 
+RR1.  Indicate the type of wheelchair or scooter used
+1. Manual
+2. Motorized
+S. Wheel 150 feet: Once seated in wheelchair/scooter, the ability to wheel at least 150 feet in a corridor or 
+similar space.
+ 
+SS1.  Indicate the type of wheelchair or scooter used
+1. Manual
+2. Motorized
+
+=== PAGE 21 ===
+OASIS-E2 All Items Effective 04/01/2026        Page 21 of 36
+Centers for Medicare & Medicaid Services
+Follow-up
+GG0170. Mobility
+Code the patient’s usual performance at Follow-up for each activity using the 6-point scale. If activity was not attempted at Fol-
+low-up code the reason.
+Coding: 
+Safety and Quality of Performance – If helper assistance is required because patient’s performance is unsafe or of poor quality, 
+score according to amount of assistance provided.  
+Activities may be completed with or without assistive devices.  
+06. Independent – Patient completes the activity by themself with no assistance from a helper. 
+05. Setup or clean-up assistance – Helper sets up or cleans up; patient completes activity. Helper assists only prior to or 
+following the activity.  
+04. Supervision or touching assistance – Helper provides verbal cues and/or touching/steadying and/or contact guard 
+assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently.  
+03. Partial/moderate assistance – Helper does LESS THAN HALF the effort. Helper lifts, holds or supports trunk or limbs, 
+but provides less than half the effort.  
+02. Substantial/maximal assistance – Helper does MORE THAN HALF the effort. Helper lifts or holds trunk or limbs and 
+provides more than half the effort.  
+01. Dependent – Helper does ALL of the effort. Patient does none of the effort to complete the activity. Or, the assistance 
+of 2 or more helpers is required for the patient to complete the activity. 
+If activity was not attempted, code reason: 
+07. Patient refused
+09. Not applicable – Not attempted and the patient did not perform this activity prior to the current illness, exacerbation 
+or injury. 
+10. Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)
+88. Not attempted due to medical conditions or safety concerns
+4. 
+Follow-up 
+Performance
+ 
+ 
+Enter Codes in 
+Boxes 
+↓ 
+  A. Roll left and right: The ability to roll from lying on back to left and right side, and return to lying on 
+back on the bed.
+  B. Sit to lying: The ability to move from sitting on side of bed to lying flat on the bed.
+  C. Lying to sitting on side of bed: The ability to move from lying on the back to sitting on the side of the 
+bed with no back support.
+  D. Sit to stand: The ability to come to a standing position from sitting in a chair, wheelchair, or on the 
+side of the bed.
+  E. Chair/bed-to-chair transfer: The ability to transfer to and from a bed to a chair (or wheelchair).
+  F. Toilet transfer: The ability to get on and off a toilet or commode
+  I. Walk 10 feet: Once standing, the ability to walk at least 10 feet in a room, corridor, or similar space.
+If Follow-up performance is coded 07, 09, 10 or 88 →  Skip to GG0170M, 1 step (curb)
+  J. Walk 50 feet with two turns: Once standing, the ability to walk 50 feet and make two turns.
+  
+L. Walking 10 feet on uneven surfaces: The ability to walk 10 feet on uneven or sloping surfaces (indoor 
+or outdoor), such as turf or gravel.
+  
+M. 1 step (curb): The ability to go up and down a curb or up and down one step. 
+If Follow-up performance is coded 07, 09, 10 or 88 →  Skip to GG0170Q, Does patient use wheelchair 
+and/or scooter?
+
+=== PAGE 22 ===
+OASIS-E2 All Items Effective 04/01/2026        Page 22 of 36
+Centers for Medicare & Medicaid Services
+Follow-up GG0170. Mobility — Continued
+4. 
+Follow-up 
+Performance
+ 
+ 
+Enter Codes in 
+Boxes 
+↓ 
+  N. 4 steps: The ability to go up and down four steps with or without a rail. 
+ 
+Q. Does patient use wheelchair and/or scooter?
+0. No →  Skip to M1033, Risk of Hospitalization
+1. Yes →  Continue to GG170R, Wheel 50 feet with two turns
+  R. Wheel 50 feet with two turns: Once seated in wheelchair/scooter, the ability to wheel at least 50 feet 
+and make two turns.
+Discharge
+GG0170. Mobility
+Code the patient’s usual performance at Discharge for each activity using the 6-point scale. If activity was not attempted at          
+Discharge, code the reason.
+Coding: 
+Safety and Quality of Performance – If helper assistance is required because patient’s performance is unsafe or of poor quality, 
+score according to amount of assistance provided.  
+Activities may be completed with or without assistive devices.  
+06. Independent – Patient completes the activity by themself with no assistance from a helper. 
+05. Setup or clean-up assistance – Helper sets up or cleans up; patient completes activity. Helper assists only prior to or 
+following the activity.  
+04. Supervision or touching assistance – Helper provides verbal cues and/or touching/steadying and/or contact guard 
+assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently.  
+03. Partial/moderate assistance – Helper does LESS THAN HALF the effort. Helper lifts, holds or supports trunk or limbs, 
+but provides less than half the effort.  
+02. Substantial/maximal assistance – Helper does MORE THAN HALF the effort. Helper lifts or holds trunk or limbs and 
+provides more than half the effort.  
+01. Dependent – Helper does ALL of the effort. Patient does none of the effort to complete the activity. Or, the assistance 
+of 2 or more helpers is required for the patient to complete the activity. 
+If activity was not attempted, code reason: 
+07. Patient refused
+09. Not applicable – Not attempted and the patient did not perform this activity prior to the current illness, exacerbation 
+or injury. 
+10. Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)
+88. Not attempted due to medical conditions or safety concerns
+3. Discharge 
+Performance
+Enter Codes 
+in Boxes 
+↓ 
+A. Roll left and right: The ability to roll from lying on back to left and right side, and return to lying on back on 
+the bed. 
+B. Sit to lying: The ability to move from sitting on side of bed to lying flat on the bed.
+C. Lying to sitting on side of bed: The ability to move from lying on the back to sitting on the side of the bed 
+with no back support.
+
+=== PAGE 23 ===
+OASIS-E2 All Items Effective 04/01/2026        Page 23 of 36
+Centers for Medicare & Medicaid Services
+Discharge
+GG0170. Mobility
+Code the patient’s usual performance at Discharge for each activity using the 6-point scale. If activity was not attempted at          
+Discharge, code the reason.
+Discharge GG0170. Mobility — Continued
+D. Sit to stand: The ability to come to a standing position from sitting in a chair, wheelchair, or on the side of the 
+bed.
+E. Chair/bed-to-chair transfer: The ability to transfer to and from a bed to a chair (or wheelchair).
+F. Toilet transfer: The ability to get on and off a toilet or commode.
+G. Car transfer: The ability to transfer in and out of a car or van on the passenger side. Does not include the 
+ability to open/close door or fasten seat belt.
+I. Walk 10 feet: Once standing, the ability to walk at least 10 feet in a room, corridor, or similar space. If         
+Discharge performance is coded 07, 09, 10 or 88 →  Skip to GG0170M, 1 step (curb)
+J. Walk 50 feet with two turns: Once standing, the ability to walk 50 feet and make two turns.
+K. Walk 150 feet: Once standing, the ability to walk at least 150 feet in a corridor or similar space.
+L. Walking 10 feet on uneven surfaces: The ability to walk 10 feet on uneven or sloping surfaces (indoor or 
+outdoor), such as turf or gravel.
+M. 1 step (curb): The ability to go up and down a curb or up and down one step. 
+If Discharge performance is coded 07, 09, 10 or 88 →  Skip to GG0170P , Picking up object.
+N. 4 steps: The ability to go up and down four steps with or without a rail.  
+If Discharge performance is coded 07, 09, 10 or 88 →  Skip to GG0170P , Picking up object.
+O. 12 steps: The ability to go up and down 12 steps with or without a rail.
+P. Picking up object: The ability to bend/stoop from a standing position to pick up a small object, such as a 
+spoon, from the floor.
+ 
+Q. Does patient use wheelchair and/or scooter?
+0. No →  Skip to M1600, Urinary Tract Infection
+1. Yes →  Continue to GG170R, Wheel 50 feet with two turns
+R. Wheel 50 feet with two turns: Once seated in wheelchair/scooter, the ability to wheel at least 50 feet and 
+make two turns.
+ 
+RR1.  Indicate the type of wheelchair or scooter used
+1. Manual
+2. Motorized
+S. Wheel 150 feet: Once seated in wheelchair/scooter, the ability to wheel at least 150 feet in a corridor or 
+similar space.
+ 
+SS1.  Indicate the type of wheelchair or scooter used
+1. Manual
+2. Motorized
+
+=== PAGE 24 ===
+OASIS-E2 All Items Effective 04/01/2026        Page 24 of 36
+Centers for Medicare & Medicaid Services
+Section H Bladder and Bowel
+M1600. Has this patient been treated for a Urinary Tract Infection in the past 14 days?
+Enter Code 
+ 
+0. No
+1. Yes
+NA Patient on prophylactic treatment
+UK Unknown [Omit “UK” option on DC]
+M1610. Urinary Incontinence or Urinary Catheter Presence
+Enter Code 
+ 
+0. No incontinence or catheter (includes anuria or ostomy for urinary drainage)
+1. Patient is incontinent
+2. Patient requires a urinary catheter (specifically: external, indwelling, intermittent, or suprapubic)
+M1620. Bowel Incontinence Frequency
+Enter Code 
+ 
+0. Very rarely or never has bowel incontinence
+1. Less than once weekly
+2. One to three times weekly
+3. Four to six times weekly
+4. On a daily basis
+5. More often than once daily
+NA Patient has ostomy for bowel elimination
+UK Unknown [Omit “UK” option on DC]
+M1630. Ostomy for Bowel Elimination
+Does this patient have an ostomy for bowel elimination that (within the last 14 days): a) was related to an inpatient facility stay; or 
+b) necessitated a change in medical or treatment regimen?
+Enter Code 
+ 
+0. Patient does not have an ostomy for bowel elimination.
+1. Patient’s ostomy was not related to an inpatient stay and did not necessitate change in medical or 
+treatment regimen.
+2. The ostomy was related to an inpatient stay or did necessitate change in medical or treatment regimen.
+
+=== PAGE 25 ===
+OASIS-E2 All Items Effective 04/01/2026        Page 25 of 36
+Centers for Medicare & Medicaid Services
+Section I Active Diagnoses
+M1021. Primary Diagnosis & M1023. Other Diagnoses
+Column 1 Column 2
+Diagnoses (Sequencing of diagnoses should reflect the serious-
+ness of each condition and support the disciplines and services 
+provided)
+ICD-10-CM and symptom control rating for each condition. Note 
+that the sequencing of these ratings may not match the se-
+quencing of the diagnoses
+M1021. Primary Diagnosis
+a. ____________________________________________
+V, W, X, Y codes NOT allowed
+a. 
+   
+        
+    0   
+    1    
+    2    
+    3    
+    4
+M1023. Other Diagnoses
+b. ____________________________________________
+All ICD-10-CM codes allowed
+b. 
+   
+        
+    0   
+    1    
+    2    
+    3    
+    4
+c. ____________________________________________ c. 
+   
+        
+    0   
+    1    
+    2    
+    3    
+    4
+d. ____________________________________________ d. 
+   
+        
+    0   
+    1    
+    2    
+    3    
+    4
+e. ____________________________________________ e. 
+   
+        
+    0   
+    1    
+    2    
+    3    
+    4
+f. ____________________________________________ f. 
+   
+        
+    0   
+    1    
+    2    
+    3    
+    4
+M1028. Active Diagnoses – Comorbidities and Co-existing Conditions
+     ↓            Check all that apply
+1. Peripheral Vascular Disease (PVD) or Peripheral Arterial Disease (PAD)
+2. Diabetes Mellitus (DM)
+3. None of the above
+
+=== PAGE 26 ===
+OASIS-E2 All Items Effective 04/01/2026        Page 26 of 36
+Centers for Medicare & Medicaid Services
+Section J Health Conditions
+M1033. Risk for Hospitalization
+Which of the following signs or symptoms characterize this patient as at risk for hospitalization?
+     ↓            Check all that apply
+1. History of falls (2 or more falls — or any fall with an injury — in the past 12 months)
+2. Unintentional weight loss of a total of 10 pounds or more in the last 12 months
+3. Multiple hospitalizations (2 or more) in the past 6 months
+4. Multiple emergency department visits (2 or more) in the past 6 months
+5. Decline in mental, emotional, or behavioral status in the past 3 months
+6. Reported or observed history of difficulty complying with any medical instructions (for example, medica-
+tions, diet, exercise) in the past 3 months
+7. Currently taking 5 or more medications
+8. Currently reports exhaustion
+9. Other risk(s) not listed in 1-8
+10. None of the above
+J0510. Pain Effect on Sleep
+Enter Code 
+ 
+Ask patient: “Over the past 5 days, how much of the time has pain made it hard for you to sleep at night?”
+0. Does not apply — I have not had any pain or hurting in the past 5 days →  Skip to M1400, Short of 
+Breath at SOC/ROC; Skip to J1800, Any Falls Since SOC/ROC at DC
+1. Rarely or not at all
+2. Occasionally
+3. Frequently
+4. Almost constantly
+8. Unable to answer
+J0520. Pain Interference with Therapy Activities
+Enter Code 
+ 
+Ask patient: “Over the past 5 days, how often have you limited your participation in rehabilitation therapy 
+sessions due to pain?”
+0. Does not apply — I have not received rehabilitation therapy in the past 5 days
+1. Rarely or not at all
+2. Occasionally
+3. Frequently
+4. Almost constantly
+8. Unable to answer
+J0530. Pain Interference with Day-to-Day Activities
+Enter Code 
+ 
+Ask patient: “Over the past 5 days, how often you have limited your day-to-day activities (excluding 
+rehabilitation therapy sessions) because of pain?”
+1. Rarely or not at all
+2. Occasionally
+3. Frequently
+4. Almost constantly
+8. Unable to answer
+J1800. Any Falls Since SOC/ROC, whichever is more recent
+Enter Code 
+ 
+Has the patient had any falls since SOC/ROC, whichever is more recent?
+0. No →  Skip to M1400, Short of Breath at DC; Skip to M2005, Medication Intervention at TRN and DAH
+1. Yes →  Continue to J1900, Number of Falls Since SOC/ROC
+
+=== PAGE 27 ===
+OASIS-E2 All Items Effective 04/01/2026        Page 27 of 36
+Centers for Medicare & Medicaid Services
+J1900. Number of Falls Since SOC/ROC, whichever is more recent
+Coding:
+0. None
+1. One
+2. Two or more
+    ↓    Enter code in boxes
+A. No injury: No evidence of any injury is noted on physical assessment by 
+the nurse or primary care clinician; no complaints of pain or injury by the 
+patient; no change in the patient’s behavior is noted after the fall
+B. Injury (except major): As described in the OASIS manual
+C. Major injury: As described in the OASIS manual
+M1400. When is the patient dyspneic or noticeably Short of Breath?
+Enter Code 
+ 
+0. Patient is not short of breath
+1. When walking more than 20 feet, climbing stairs
+2. With moderate exertion (for example, while dressing, using commode or bedpan, walking distances less 
+than 20 feet)
+3. With minimal exertion (for example, while eating, talking, or performing other ADLs) or with agitation
+4. At rest (during day or night)
+Section K Swallowing/Nutritional Status
+M1060. Height and Weight — While measuring, if the number is X.1-X.4 round down; X.5 or greater round up.
+ 
+inches
+A. Height (in inches). Record most recent height measure since the most recent SOC/ROC
+   
+pounds
+B. Weight (in pounds). Base weight on most recent measure in last 30 days; measure weight consistently, 
+according to standard agency practice (for example, in a.m. after voiding, before meal, with shoes off, etc.)
+SOC/ROC
+K0520. Nutritional Approaches
+1. On Admission
+Check all of the nutritional approaches that apply on admission 1.
+On Admission
+     Check all that apply     ↓
+A. Parenteral/IV feeding
+B. Feeding tube (e.g., nasogastric or abdominal (PEG))
+C. Mechanically altered diet — require change in texture of food 
+or liquids (e.g., pureed food, thickened liquids)
+D. Therapeutic diet (e.g., low salt, diabetic, low cholesterol)
+Z. None of the above
+
+=== PAGE 28 ===
+OASIS-E2 All Items Effective 04/01/2026        Page 28 of 36
+Centers for Medicare & Medicaid Services
+Discharge
+K0520. Nutritional Approaches
+4. Last 7 days
+Check all of the nutritional approaches that were received 
+in the last 7 days
+5. At discharge
+Check all of the nutritional approaches that were being 
+received at discharge
+4.
+Last 7 days
+5.
+At discharge
+                     ↓         Check all that apply          ↓
+A. Parenteral/IV feeding
+B. Feeding tube (e.g., nasogastric or abdominal (PEG))
+C. Mechanically altered diet — require change in texture of 
+food or liquids (e.g., pureed food, thickened liquids)
+D. Therapeutic diet (e.g., low salt, diabetic, low cholesterol)
+Z. None of the above
+M1870. Feeding or Eating
+Current ability to feed self meals and snacks safely. Note: This refers only to the process of eating, chewing, and swallowing, not 
+preparing the food to be eaten.
+Enter Code 
+ 
+0. Able to independently feed self
+1. Able to feed self independently but requires:
+a. meal set-up; OR
+b. intermittent assistance or supervision from another person; OR
+c. a liquid, pureed, or ground meat diet.
+2. Unable to feed self and must be assisted or supervised throughout the meal/snack.
+3. Able to take in nutrients orally and receives supplemental nutrients through a nasogastric tube or 
+gastrostomy.
+4. Unable to take in nutrients orally and is fed nutrients through a nasogastric tube or gastrostomy.
+5. Unable to take in nutrients orally or by tube feeding.
+Section M Skin Conditions
+M1306. Does this patient have at least one Unhealed Pressure Ulcer/Injury at Stage 2 or Higher or designated as Unstageable? 
+(Excludes Stage 1 pressure injuries and all healed pressure ulcers/injuries)
+Enter Code 
+ 
+0. No →  Skip to M1322, Current Number of Stage 1 Pressure Injuries at SOC/ROC; Skip to M1324, Stage of 
+Most Problematic Unhealed Pressure Ulcer/Injury that is Stageable at DC
+1. Yes
+M1307. The Oldest Stage 2 Pressure Ulcer that is present at discharge: (Excludes healed Stage 2 pressure ulcers)
+Enter Code 
+ 
+1. Was present at the most recent SOC/ROC assessment
+2. Developed since the most recent SOC/ROC assessment. Record date pressure ulcer first identified:
+ — 
+  — 
+ Month          Day            Year
+NA.  No Stage 2 pressure ulcers are present at discharge
+
+=== PAGE 29 ===
+OASIS-E2 All Items Effective 04/01/2026        Page 29 of 36
+Centers for Medicare & Medicaid Services
+SOC/ROC
+M1311. Current Number of Unhealed Pressure Ulcers/Injuries at Each Stage
+Enter Number 
+ 
+A1.  Stage 2: Partial thickness loss of dermis presenting as a shallow open ulcer with a red or pink wound bed, 
+without slough. May also present as an intact or open/ruptured blister.
+Number of Stage 2 pressure ulcers
+Enter Number 
+ 
+B1.  Stage 3: Full thickness tissue loss. Subcutaneous fat may be visible but bone, tendon, or muscle is not 
+exposed. Slough may be present but does not obscure the depth of tissue loss. May include undermining and 
+tunneling.
+Number of Stage 3 pressure ulcers
+Enter Number 
+ 
+C1.  Stage 4: Full thickness tissue loss with exposed bone, tendon, or muscle. Slough or eschar may be present on 
+some parts of the wound bed. Often includes undermining and tunneling.
+Number of Stage 4 pressure ulcers
+Enter Number 
+ 
+D1.  Unstageable: Non-removable dressing/device: Known but not stageable due to non-removable dressing/
+device
+Number of unstageable pressure ulcers/injuries due to non-removable dressing/device
+Enter Number 
+ 
+E1.  Unstageable: Slough and/or eschar: Known but not stageable due to coverage of wound bed by slough and/
+or eschar
+Number of unstageable pressure ulcers due to coverage of wound bed by slough and/or eschar
+Enter Number 
+ 
+F1.  Unstageable: Deep tissue injury
+Number of unstageable pressure injuries presenting as deep tissue injury
+
+=== PAGE 30 ===
+OASIS-E2 All Items Effective 04/01/2026        Page 30 of 36
+Centers for Medicare & Medicaid Services
+Discharge
+M1311. Current Number of Unhealed Pressure Ulcers/Injuries at Each Stage
+Enter Number 
+ 
+Enter Number 
+ 
+A1.  Stage 2: Partial thickness loss of dermis presenting as a shallow open ulcer with a red or pink wound bed, 
+without slough. May also present as an intact or open/ruptured blister. 
+Number of Stage 2 pressure ulcers  — If 0 → Skip to M1311B1, Stage 3
+A2.  Number of these Stage 2 pressure ulcers that were present at most recent SOC/ROC 
+        – enter how many were noted at the time of most recent SOC/ROC
+Enter Number 
+ 
+Enter Number 
+ 
+B1.  Stage 3: Full thickness tissue loss. Subcutaneous fat may be visible but bone, tendon, or muscle is not 
+exposed. Slough may be present but does not obscure the depth of tissue loss. May include undermining and 
+tunneling.
+Number of Stage 3 pressure ulcers  — If 0 → Skip to M1311C1, Stage 4
+B2.  Number of these Stage 3 pressure ulcers that were present at most recent SOC/ROC 
+        – enter how many were noted at the time of most recent SOC/ROC
+Enter Number 
+ 
+Enter Number 
+ 
+C1.  Stage 4: Full thickness tissue loss with exposed bone, tendon, or muscle. Slough or eschar may be present on 
+some parts of the wound bed. Often includes undermining and tunneling.
+Number of Stage 4 pressure ulcers  — If 0 → Skip to M1311D1, Unstageable: Non-removable dressing/device
+C2.  Number of these Stage 4 pressure ulcers that were present at most recent SOC/ROC 
+        – enter how many were noted at the time of most recent SOC/ROC
+Enter Number 
+ 
+Enter Number 
+ 
+D1.  Unstageable: Non-removable dressing/device: Known but not stageable due to non-removable dressing/
+device
+Number of unstageable pressure ulcers/injuries due to non-removable dressing/device  — If 0 → Skip to 
+M1311E1, Unstageable: Slough and/or eschar
+D2.  Number of these unstageable pressure ulcers/injuries that were present at most recent SOC/ROC 
+        – enter how many were noted at the time of most recent SOC/ROC
+Enter Number 
+ 
+Enter Number 
+ 
+E1.  Unstageable: Slough and/or eschar: Known but not stageable due to coverage of wound bed by slough and/
+or eschar
+Number of unstageable pressure ulcers due to coverage of wound bed by slough and/or eschar — If 0 → Skip to 
+M1311F1, Unstageable: Deep tissue injury
+E2.  Number of these unstageable pressure ulcers/injuries that were present at most recent SOC/ROC 
+        – enter how many were noted at the time of most recent SOC/ROC
+Enter Number 
+ 
+Enter Number 
+ 
+F1.  Unstageable: Deep tissue injury
+Number of unstageable pressure injuries presenting as deep tissue injury — If 0 → Skip to M1324, Stage of Most 
+Problematic Unhealed Pressure Ulcer/Injury that is Stageable
+F2.  Number of these unstageable pressure injuries that were present at most recent SOC/ROC 
+        – enter how many were noted at the time of most recent SOC/ROC
+
+=== PAGE 31 ===
+OASIS-E2 All Items Effective 04/01/2026        Page 31 of 36
+Centers for Medicare & Medicaid Services
+M1322. Current Number of Stage 1 Pressure Injuries
+Intact skin with non-blanchable redness of a localized area usually over a bony prominence. Darkly pigmented skin may not have a 
+visible blanching; in dark skin tones only, it may appear with persistent blue or purple hues.
+Enter Code 
+ 
+0. Zero
+1. One
+2. Two
+3. Three
+4. Four or more
+M1324. Stage of Most Problematic Unhealed Pressure Ulcer/Injury that is Stageable
+Excludes pressure ulcer/injury that cannot be staged due to a non-removable dressing/device, coverage of wound bed by slough 
+and/or eschar, or deep tissue injury.
+Enter Code 
+ 
+1. Stage 1
+2. Stage 2
+3. Stage 3
+4. Stage 4
+NA Patient has no pressure ulcers/injuries or no stageable pressure ulcers/injuries
+M1330. Does this patient have a Stasis Ulcer?
+Enter Code 
+ 
+0. No → Skip to M1340, Surgical Wound
+1. Yes, patient has BOTH observable and unobservable stasis ulcers
+2. Yes, patient has observable stasis ulcers ONLY
+3. Yes, patient has unobservable stasis ulcers ONLY (known but not observable due to non-removable dressing/
+device) → Skip to M1340, Surgical Wound
+M1332. Current Number of Stasis Ulcer(s) that are Observable
+Enter Code 
+ 
+1. One
+2. Two
+3. Three
+4. Four or more
+M1334. Status of Most Problematic Stasis Ulcer that is Observable
+Enter Code 
+ 
+1. Fully granulating
+2. Early/partial granulation
+3. Not healing
+M1340. Does this patient have a Surgical Wound?
+Enter Code 
+ 
+0. No → Skip to N0415, High-Risk Drug Classes: Use and Indication
+1. Yes, patient has at least one observable surgical wound
+2. Surgical wound known but not observable due to non-removable dressing/device → Skip to N0415, High-Risk 
+Drug Classes: Use and Indication
+M1342. Status of Most Problematic Surgical Wound that is Observable
+Enter Code 
+ 
+0. Newly epithelialized
+1. Fully granulating
+2. Early/partial granulation
+3. Not healing
+
+=== PAGE 32 ===
+OASIS-E2 All Items Effective 04/01/2026        Page 32 of 36
+Centers for Medicare & Medicaid Services
+Section N Medications
+SOC/ROC and Discharge
+N0415. High-Risk Drug Classes: Use and Indication
+1. Is taking
+Check if the patient is taking any medications by pharma-
+cological classification, not how it is used, in the following 
+classes
+2. Indication noted
+If Column 1 is checked, check if there is an indication noted 
+for all medications in the drug class
+1.
+Is Taking
+2.
+Indication Noted
+                     ↓         Check all that apply          ↓
+A. Antipsychotic
+E. Anticoagulant
+F. Antibiotic
+H. Opioid
+I. Antiplatelet
+J. Hypoglycemic (including insulin)
+Z. None of the above
+M2001. Drug Regimen Review
+Did a complete drug regimen review identify potential clinically significant medication issues?
+Enter Code 
+ 
+0. No  — No issues found during review → Skip to M2010, Patient/Caregiver High-Risk Drug Education
+1. Yes — Issues found during review
+9. NA — Patient is not taking any medications→ Skip to O0110, Special Treatments, Procedures, and Programs
+M2003. Medication Follow-up
+Did the agency contact a physician (or physician-designee) by midnight of the next calendar day and complete prescribed/           
+recommended actions in response to the identified potential clinically significant medication issues?
+Enter Code 
+ 
+0. No
+1. Yes
+M2005. Medication Intervention
+Did the agency contact and complete physician (or physician-designee) prescribed/recommended actions by midnight of the next 
+calendar day each time potential clinically significant medication issues were identified since the SOC/ROC?
+Enter Code 
+ 
+0. No  
+1. Yes 
+9. NA — There were no potential clinically significant medication issues identified since SOC/ROC or patient is not 
+taking any medications
+M2010. Patient/Caregiver High-Risk Drug Education
+Has the patient/caregiver received instruction on special precautions for all high-risk medications (such as hypoglycemics,             
+anticoagulants, etc.) and how and when to report problems that may occur?
+Enter Code 
+ 
+0. No  
+1. Yes 
+NA Patient not taking any high-risk drugs OR patient/caregiver fully knowledgeable about special precautions 
+associated with all high-risk medications
+
+=== PAGE 33 ===
+OASIS-E2 All Items Effective 04/01/2026        Page 33 of 36
+Centers for Medicare & Medicaid Services
+M2020. Management of Oral Medications
+Patient’s current ability to prepare and take all oral medications reliably and safely, including administration of the correct 
+dosage at the appropriate times/intervals. Excludes injectable and IV medications. (NOTE: This refers to ability, not compliance or           
+willingness.)
+Enter Code 
+ 
+0. Able to independently take the correct oral medication(s) and proper dosage(s) at the correct times.
+1. Able to take medication(s) at the correct times if:
+a. individual dosages are prepared in advance by another person; OR
+b. another person develops a drug diary or chart.
+2. Able to take medication(s) at the correct times if given reminders by another person at the appropriate 
+times
+3. Unable to take medication unless administered by another person.
+NA No oral medications prescribed.
+M2030. Management of Injectable Medications
+Patient’s current ability to prepare and take all prescribed injectable medications reliably and safely, including administration of the 
+correct dosage at the appropriate times/intervals. Excludes IV medications.
+Enter Code 
+ 
+0. Able to independently take the correct medication(s) and proper dosage(s) at the correct times.
+1. Able to take injectable medication(s) at the correct times if:
+a. individual syringes are prepared in advance by another person; OR
+b. another person develops a drug diary or chart.
+2. Able to take medication(s) at the correct times if given reminders by another person based on the 
+frequency of the injection
+3. Unable to take injectable medication unless administered by another person.
+NA No injectable medications prescribed.
+
+=== PAGE 34 ===
+OASIS-E2 All Items Effective 04/01/2026        Page 34 of 36
+Centers for Medicare & Medicaid Services
+Section O Special Treatment, Procedures, and Programs
+SOC/ROC
+O0110. Special Treatments, Procedures, and Programs
+Check all of the following treatments, procedures, and programs that apply on admission.
+a. On Admission
+Check all that apply
+↓
+Cancer Treatments
+A1.  Chemotherapy
+A2.  IV
+A3.  Oral
+A10.  Other
+B1.  Radiation
+Respiratory Therapies
+C1.  Oxygen Therapy
+C2.  Continuous
+C3.  Intermittent
+C4.  High-concentration
+D1.  Suctioning
+D2.  Scheduled
+D3.  As Needed
+E1.  Tracheostomy care
+F1.  Invasive Mechanical Ventilator (ventilator or respirator)
+G1. Non-invasive Mechanical Ventilator
+G2.  BiPAP
+G3.  CPAP
+Other
+H1.  IV Medications
+H2.  Vasoactive medications
+H3.  Antibiotics
+H4.  Anticoagulation
+H10. Other
+I1.  Transfusions
+J1.  Dialysis
+J2.  Hemodialysis
+J3.  Peritoneal dialysis
+O1.  IV Access
+O2.  Peripheral
+O3.  Mid-line
+O4.  Central (e.g., PICC, tunneled, port)
+None of the Above
+Z1.  None of the Above
+
+=== PAGE 35 ===
+OASIS-E2 All Items Effective 04/01/2026        Page 35 of 36
+Centers for Medicare & Medicaid Services
+Discharge
+O0110. Special Treatments, Procedures, and Programs
+Check all of the following treatments, procedures, and programs that apply on discharge.
+c. At Discharge
+Check all that apply
+↓
+Cancer Treatments
+A1.  Chemotherapy
+A2.  IV
+A3.  Oral
+A10.  Other
+B1.  Radiation
+Respiratory Therapies
+C1.  Oxygen Therapy
+C2.  Continuous
+C3.  Intermittent
+C4.  High-concentration
+D1.  Suctioning
+D2.  Scheduled
+D3.  As Needed
+E1.  Tracheostomy care
+F1.  Invasive Mechanical Ventilator (ventilator or respirator)
+G1. Non-invasive Mechanical Ventilator
+G2.  BiPAP
+G3.  CPAP
+Other
+H1.  IV Medications
+H2.  Vasoactive medications
+H3.  Antibiotics
+H4.  Anticoagulation
+H10. Other
+I1.  Transfusions
+J1.  Dialysis
+J2.  Hemodialysis
+J3.  Peritoneal dialysis
+O1.  IV Access
+O2.  Peripheral
+O3.  Mid-line
+O4.  Central (e.g., PICC, tunneled, port)
+None of the Above
+Z1.  None of the Above
+M1041. Influenza Vaccine Data Collection Period
+Does this episode of care (SOC/ROC to Transfer/Discharge) include any dates on or between October 1 and March 31?
+Enter Code 
+ 
+0. No → Skip to M2401, Intervention Synopsis
+1. Yes → Continue to M1046, Influenza Vaccine Received
+
+=== PAGE 36 ===
+OASIS-E2 All Items Effective 04/01/2026        Page 36 of 36
+Centers for Medicare & Medicaid Services
+M1046. Influenza Vaccine Received
+Did the patient receive the influenza vaccine for this year’s flu season?
+Enter Code 
+ 
+1. Yes; received from your agency during this episode of care (SOC/ROC to Transfer/Discharge)
+2. Yes; received from your agency during a prior episode of care (SOC/ROC to Transfer/Discharge)
+3. Yes; received from another health care provider (for example, physician, pharmacist)
+4. No; patient offered and declined
+5. No; patient assessed and determined to have medical contraindication(s)
+6. No; not indicated – patient does not meet age/condition guidelines for influenza vaccine
+7. No; inability to obtain vaccine due to declared shortage
+8. No; patient did not receive the vaccine due to reasons other than those listed in responses 4-7.
+Section Q Participation in Assessment and Goal Setting
+M2401. Intervention Synopsis
+At the time of or at any time since the most recent SOC/ROC assessment, were the following interventions BOTH included in the 
+physician-ordered plan of care AND implemented? (Mark only one box in each row.)
+Plan/Intervention No Yes Not Applicable
+                                                             ↓         Check only one box in each row        ↓
+b. Falls prevention interventions
+  0
+   1
+   NA
+Every standardized, validated multi-factor 
+fall risk assessment conducted at or since 
+the most recent SOC/ROC assessment indi-
+cates the patient has no risk for falls.
+c. Depression intervention(s) 
+such as medication, referral 
+for other treatment, or a 
+monitoring plan for current 
+treatment
+  0
+   1
+   NA
+Patient has no diagnosis of depression AND 
+every standardized, validated depression 
+screening conducted at or since the most 
+recent SOC/ROC assessment indicates the 
+patient has: 1) no symptoms of depression; 
+or 2) has some symptoms of depression but 
+does not meet criteria for further evaluation 
+of depression based on screening tool used.
+d. Intervention(s) to monitor 
+and mitigate pain
+   0
+   1
+   NA
+Every standardized, validated pain assess-
+ment conducted at or since the most recent 
+SOC/ROC assessment indicates the patient 
+has no pain.
+e. Intervention(s) to prevent 
+pressure ulcers
+   0
+   1
+   NA
+Every standardized, validated pressure ulcer 
+risk assessment conducted at or since the 
+most recent SOC/ROC assessment indicates 
+the patient is not at risk of developing pres-
+sure ulcers.
+f. Pressure ulcer treatment 
+based on principles of moist 
+wound healing
+  0
+   1
+   NA
+Patient has no pressure ulcers OR has no 
+pressure ulcers for which moist wound heal-
+ing is indicated.
